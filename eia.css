@@ -233,11 +233,12 @@ h3 .header-section-number{
   
 /* blockquote */
   .blockquote {
-    
+  display:inline-block;
+  float:left;
   max-width:400px;
   border-bottom: solid 10px #a7aca5;
   font-size:1.4em;
-  margin:40px 0 30px -33px;
+  margin:40px 15px 30px -33px;
 }
 
 .blockquote p {
