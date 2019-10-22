@@ -48,7 +48,7 @@ h4 {
 }
 
 .progress {
-	margin-top:1em;
+	margin-top:0.8em;
 }
 
 .card1 {
@@ -65,11 +65,25 @@ h4 {
 .subgoal-head:hover {
 	background-color: #f9f9f9;
 }
+/*Progress-bar colors*/
+
+.pb-finished {
+	background-color:#46ab2f;
+}
+.pb-almost-finished {
+	background-color: #93af48;
+}
+.pb-in-progress {
+	background-color:#caa926;
+}
+.pb-awaiting-start {
+	background-color:#6a6a6a;
+}
 
 /*Progress state colors*/
 
 .finished {
-	color:#256b1a;
+	color:#46ab2f;
 }
 .almost-finished {
 	color: #93af48;
