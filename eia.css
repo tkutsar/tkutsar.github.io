@@ -223,7 +223,7 @@ h3 .header-section-number{
     margin: 10px 1px 0 0;
   }
   
-    .points p::first-letter, .authors p::first-letter, .blockquote p::first-letter, .casebox p::first-letter, #refs p::first-letter, .imgsource p::first-letter {
+    .points p::first-letter, .authors p::first-letter, .blockquote p::first-letter, .casebox p::first-letter, .subreferences p::first-letter, .imgsource p::first-letter {
     color:inherit !important;
      font-size:inherit !important;
      margin:0 !important;
@@ -270,7 +270,7 @@ h3 .header-section-number{
 
 .imgsource {
   color:#777;
-  margin-top:-1em;
+  margin-top:0;
 }  
 
 /* Chapter 0 - INTRO  #C54409 */
@@ -432,7 +432,15 @@ h3 .header-section-number{
 	color: #BC9417 !important;
 }
 
+.chapter4_section .figure-number {
+	color: #BC9417 !important;
+}
+
 .chapter4_section .blockquote {
+  color:#BC9417;
+}
+
+.chapter4_section .imgsource-source {
   color:#BC9417;
 }
 
