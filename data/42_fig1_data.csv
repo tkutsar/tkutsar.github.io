@@ -1,0 +1,55 @@
+group,answer,value
+Kõik lapsed,Umbes 1 tund või vähem,15.56
+Kõik lapsed,Umbes 2-3 tundi,28.53
+Kõik lapsed,Umbes 4-5 tundi,29.02
+Kõik lapsed,Umbes 6 tundi või rohkem,19.83
+Kõik lapsed,Ei oska öelda,6.59
+Kõik lapsed,Ei taha öelda,0.47
+Poisid,Umbes 1 tund või vähem,11.98
+Poisid,Umbes 2-3 tundi,29.89
+Poisid,Umbes 4-5 tundi,30.69
+Poisid,Umbes 6 tundi või rohkem,22.35
+Poisid,Ei oska öelda,4.88
+Poisid,Ei taha öelda,0.21
+Tüdrukud,Umbes 1 tund või vähem,19.34
+Tüdrukud,Umbes 2-3 tundi,27.08
+Tüdrukud,Umbes 4-5 tundi,27.26
+Tüdrukud,Umbes 6 tundi või rohkem,17.17
+Tüdrukud,Ei oska öelda,8.41
+Tüdrukud,Ei taha öelda,0.74
+9-10 a,Umbes 1 tund või vähem,32.02
+9-10 a,Umbes 2-3 tundi,35.78
+9-10 a,Umbes 4-5 tundi,21.26
+9-10 a,Umbes 6 tundi või rohkem,6.39
+9-10 a,Ei oska öelda,4.56
+9-10 a,Ei taha öelda,0.00
+11-12 a,Umbes 1 tund või vähem,15.60
+11-12 a,Umbes 2-3 tundi,33.47
+11-12 a,Umbes 4-5 tundi,25.17
+11-12 a,Umbes 6 tundi või rohkem,17.54
+11-12 a,Ei oska öelda,7.43
+11-12 a,Ei taha öelda,0.79
+13-14 a,Umbes 1 tund või vähem,9.18
+13-14 a,Umbes 2-3 tundi,19.33
+13-14 a,Umbes 4-5 tundi,35.74
+13-14 a,Umbes 6 tundi või rohkem,26.33
+13-14 a,Ei oska öelda,8.13
+13-14 a,Ei taha öelda,1.29
+15-17 a,Umbes 1 tund või vähem,6.31
+15-17 a,Umbes 2-3 tundi,25.43
+15-17 a,Umbes 4-5 tundi,33.59
+15-17 a,Umbes 6 tundi või rohkem,28.17
+15-17 a,Ei oska öelda,6.51
+15-17 a,Ei taha öelda,0.00
+Eesti,Umbes 1 tund või vähem,17.85
+Eesti,Umbes 2-3 tundi,28.87
+Eesti,Umbes 4-5 tundi,27.34
+Eesti,Umbes 6 tundi või rohkem,18.65
+Eesti,Ei oska öelda,6.97
+Eesti,Ei taha öelda,0.31
+Vene,Umbes 1 tund või vähem,8.91
+Vene,Umbes 2-3 tundi,27.52
+Vene,Umbes 4-5 tundi,33.89
+Vene,Umbes 6 tundi või rohkem,23.26
+Vene,Ei oska öelda,5.49
+Vene,Ei taha öelda,0.93
