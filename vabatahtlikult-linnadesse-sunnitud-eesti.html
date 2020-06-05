@@ -49,6 +49,15 @@
 
 
 <script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.0.2/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.1.17/leaflet-providers.js"></script>
+<script src="libs/leaflet-providers-plugin-2.0.2/leaflet-providers-plugin.js"></script>
 <script src="libs/plotly-binding-4.9.2.1/plotly.js"></script>
 <script src="libs/typedarray-0.1/typedarray.min.js"></script>
 <link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
@@ -314,7 +323,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#sotsiaalmeedia-lubavused-soodustavad-emotsioonipõhist-suhtlust"><i class="fa fa-check"></i>Sotsiaalmeedia lubavused soodustavad emotsioonipõhist suhtlust</a></li>
 <li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#interneti-kasutamine-eestis"><i class="fa fa-check"></i>Interneti kasutamine Eestis</a></li>
 <li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#suletud-tähendusloome-tekitab-polariseerumist"><i class="fa fa-check"></i>Suletud tähendusloome tekitab polariseerumist</a></li>
-<li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#avatud-tähendusloome-kaasab-erinevaid-osapooli"><i class="fa fa-check"></i>Avatud tähendusloome kaasab erinevaid osapooli</a></li>
+<li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#avatud-tähendusloome-kaasab-eri-osapooli"><i class="fa fa-check"></i>Avatud tähendusloome kaasab eri osapooli</a></li>
 <li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#kokkuvõte-11"><i class="fa fa-check"></i>Kokkuvõte</a></li>
 <li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#viidatud-allikad-18"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
@@ -388,6 +397,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div>
 <a class="print-btn" href="print/EIA-2019-5.1-Vabatahtlikult-linnadesse.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a>
 </div>
+<p><img src="figures/5-chapter/kaart-1.png" width="100%" style="display: block; margin: auto;" /></p>
 <table class="future-table">
 <tbody>
 <tr>
@@ -456,7 +466,6 @@ ei ole saavutatud, kuigi mõni valdkond on teistest tugevam
 </tr>
 </tbody>
 </table>
-<p><img src="figures/5-chapter/kaart-1.png" width="100%" style="display: block; margin: auto;" /></p>
 <p>„Nähtamatu käe“ juhtimisel on eestlased ja ka üsna paljud uuseestlased kogunenud Tallinna, Tartu ja Pärnu linnaregiooni – hoogne elamuarendus on haaranud linnalähedased põllud, kuid ajaloolised linnad ise ei ole samas tempos kasvanud. Puuduvate kesklinnade asemel saadakse kokku kauba- ja meelelahutuskeskustes. Linnaväljakute asemel vajatakse parklaid ja laiu teid, sest tavaline eestlane ei taha näha vaeseid ja võõraid. Pealegi on tänaval ohtlik. Regioonid on tugevalt kihistunud: jõukam rahvas elab heade koolide, tenniseklubide ja kaunite rohealade piirkonnas, mille ümber on aed ja valvurid. Linnad ise on rõhuvas osas vaeste ja uussisserändajate elukorterite päralt, äärelinnades on kehvad koolid, kehvad ühendused ja ohtlik õhtuti väljas käia. Tallinn ja Pärnu on hästi maailmaga ühendatud – Helsingi tunnel ja Rail Baltica loovad hea ühenduse neile, kes selle eest maksta jaksavad. Ent Tartussegi saab kiirelt rongiga või isikliku droonikapsliga. Inimestel ei ole märkimisväärset ühistunnet, pigem õigustatakse rikkust tubliduse ja vaesust laiskusega. Nende n-ö laisemate andmed on igaühele müügiks, peenem rahvas maksab teatava privaatsuse eest suurettevõtetele lunaraha. Ühiskonda vaevavad elustiilihaigused ja kuivõrd puudub toetav küünarnukitunne, siis tunneb suurem osa eestimaalasi end üksikuna. SKP asemel ühiskonna edukuse peamiseks mõõdupuuks saanud õnneindeksis on Eestis mitu aastat järjest kukkunud ning langemist ei pidurda ka suuremat ühtsust taotlevad kampaaniad.</p>
 <div class="future-illustration">
 <p><img src="figures/5-chapter/tulevik-1.png" width="100%" style="display: block; margin: auto;" /></p>
