@@ -27,7 +27,7 @@ BODY{}
 .leaflet-retina .leaflet-control-layers-toggle {
     background-image: url(images/layers-2x.png) !important;
     background-size: 26px 26px;}
-    
+
 /* header */
 
 .book .book-header .btn:hover {
@@ -37,7 +37,7 @@ BODY{}
 .book .book-header .btn:last-of-type {
   display:none !important;
 }
-  
+
 /* page layout */
 
 p {
@@ -48,7 +48,7 @@ p {
 .body-inner {
   overflow-x:hidden;
   }
-  
+
 .page-inner{
   width:100% !important;
   max-width:none !important;
@@ -91,7 +91,7 @@ p {
   .chapter_section, .intro_section, .references .cover-container {
     padding:0 21px 0 21px;
   }
-  
+
   h1, h2 {
     margin-top:2em!important;
   }}
@@ -203,7 +203,7 @@ h3 .header-section-number{
 /* Block before intro sections */
 
 .intro_section::before{
-  
+
         content: "";
 	      display: block;
 	      height: 50vh;
@@ -223,7 +223,7 @@ h3 .header-section-number{
 
 /* Big headers */
 .intro_section h1 {
-  font-size: 4.5em !important; text-transform: uppercase; line-height: 1em; 
+  font-size: 4.5em !important; text-transform: uppercase; line-height: 1em;
   color:white;
   position:absolute;
 	top:15vh;
@@ -233,7 +233,7 @@ h3 .header-section-number{
 }
 
 @media only screen and (max-width: 768px) {
-  
+
 .intro_section::before {
 	      height: 35vh;
 }
@@ -243,7 +243,7 @@ h3 .header-section-number{
   top:7vh;
 }
 .intro_section h2 {
-        margin-top:32vh !important;
+        margin-top:37vh !important;
 }
 
 }
@@ -261,7 +261,7 @@ h3 .header-section-number{
   top:65px;
 }
 }
-  
+
 /* authors and print button*/
   .authors {
   display:grid;
@@ -298,7 +298,7 @@ h3 .header-section-number{
 .authors {
   display:block;
 }
-  
+
 .print-btn {
   float:none;
   max-width:175px;
@@ -312,20 +312,20 @@ h3 .header-section-number{
     font-size:1.1em;
     color: #3a404a;
   }
-  
+
   .points ul {
     list-style-type: disc;
   }
-  
+
   .points li {
     padding:0 0 8px 0;
     font-weight:bold;
   }
-  
+
     .points li p {
     text-align:left;
   }
-  
+
   /* first letters */
  /* .chapter_section p:first-of-type::first-letter {
     color:#a7aca5;
@@ -335,21 +335,21 @@ h3 .header-section-number{
     margin: 10px 1px 0 0;
     font-weight:300;
   }
-  
+
     .points p::first-letter, .authors p::first-letter, .blockquote-left p::first-letter,.blockquote-right p::first-letter,.definition-left p::first-letter,.definition-right p::first-letter, .casebox p::first-letter, .subreferences p::first-letter, .imgsource p::first-letter {
     color:inherit !important;
      font-size:inherit !important;
      margin:0 !important;
      float:none !important;
   }
-  
+
   .chapter_section .figure p::first-letter {
     color:#777777;
     font-size:inherit;
     margin:0;
     float:none;
   }
-  
+
 /* blockquote */
   .blockquote-left {
   display:inline-block;
@@ -368,7 +368,7 @@ h3 .header-section-number{
   line-height: normal;
   font-weight:500;
 }
-  
+
 .blockquote-right {
   display:inline-block;
   float:right;
@@ -386,7 +386,7 @@ h3 .header-section-number{
   line-height: normal;
   font-weight:500;
 }
-  
+
   /* definition box */
   /*.definition-left {
   display:inline-block;
@@ -406,7 +406,7 @@ h3 .header-section-number{
   line-height: normal;
 }
 
-  
+
 .definition-right {
   display:inline-block;
   float:right;
@@ -423,7 +423,7 @@ h3 .header-section-number{
 .definition-right p {
   text-align: left !important;
   line-height: normal;} /*
-  
+
 /* casebox */
 .casebox {
     padding: 5px 30px 15px 30px;
@@ -476,7 +476,7 @@ p.caption {
 .imgsource {
   display:block;
 }
-  
+
 .data-btn-btn {
   max-width:105px;
 }
@@ -547,11 +547,11 @@ p.caption {
 }
 
 @media only screen and (max-width: 576px) {
-  
+
   .cover-container {
     padding:0 21px 0 21px;
   }
-  
+
   #cover-hero h1 {
     padding-top:25px;
   }
@@ -633,7 +633,7 @@ p.caption {
 .foreword_section .authors {
   border-bottom: 3px solid #0872ba;
   }
-  
+
  .foreword_section a.print-btn {
   color: #e6e3da !important;
   text-decoration:none !important;
@@ -658,7 +658,7 @@ p.caption {
   display: grid;
   grid-template-columns: auto 250px;
 }
-  
+
 .president-photo-container {
   float:right;
   width:100%;
@@ -701,14 +701,14 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter1_section h1{ 
+.chapter1_section h1{
   color: white !important;
 }
 
 .chapter0_section .authors {
   border-bottom: 3px solid #C54409;
   }
-  
+
 .chapter0_section h2,
 .chapter0_section h3
 {
@@ -723,11 +723,11 @@ p.caption {
    color: black !important;
     text-decoration:underline !important;
  }
- 
+
 .chapter0_section .authors a:hover {
     color:#3a404a !important;
  }
- 
+
 .chapter0_section a.print-btn {
   color: #e6e3da !important;
   text-decoration:none !important;
@@ -749,12 +749,12 @@ p.caption {
 }
 
 .bullet-heading::before  {
-  content: "\2022  "; 
+  content: "\2022  ";
   color: #C54409;
   font-weight: bold;
   width: 2em;
   }
-  
+
 .bullet-heading {
   color: #3a404a;
 }
@@ -860,7 +860,7 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter1_section h1{ 
+.chapter1_section h1{
   color: #482683 !important;
 }
 
@@ -882,11 +882,11 @@ p.caption {
    color: black !important;
     text-decoration:underline !important;
  }
- 
+
 .chapter1_section .authors a:hover {
     color:#3a404a !important;
  }
- 
+
  .chapter1_section a.print-btn {
   color: #e6e3da !important;
   text-decoration:none !important;
@@ -1011,7 +1011,7 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter2_section h1{ 
+.chapter2_section h1{
   color: white;
 }
 
@@ -1033,7 +1033,7 @@ p.caption {
    color: black !important;
     text-decoration:underline !important;
  }
- 
+
   .chapter2_section .authors a:hover {
     color:#3a404a !important;
  }
@@ -1093,14 +1093,14 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter3_section h1{ 
+.chapter3_section h1{
   color: white;
 }
 
 .chapter3_section .authors {
   border-bottom: 3px solid #79AC2C;
   }
-  
+
 .chapter3_section h2,
 .chapter3_section h3
 {
@@ -1115,11 +1115,11 @@ p.caption {
    color: black !important;
     text-decoration:underline !important;
  }
- 
+
 .chapter3_section .authors a:hover {
     color:#3a404a !important;
  }
- 
+
 .chapter3_section a.print-btn {
   color: #e6e3da !important;
   text-decoration:none !important;
@@ -1234,14 +1234,14 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter4_section h1{ 
+.chapter4_section h1{
   color: #BC9417;
 }
 
 .chapter4_section .authors {
   border-bottom: 3px solid #BC9417;
   }
-  
+
 .chapter4_section h2,
 .chapter4_section h3
 {
@@ -1256,11 +1256,11 @@ p.caption {
    color: black !important;
     text-decoration:underline !important;
  }
- 
+
   .chapter4_section .authors a:hover {
     color:#3a404a !important;
  }
- 
+
  .chapter4_section a.print-btn {
   color: #e6e3da !important;
   text-decoration:none !important;
@@ -1280,7 +1280,7 @@ p.caption {
   border: solid 2px #BC9417;
   color: #BC9417 !important;
 }
- 
+
 .chapter4_section .figure-number {
 	color: #BC9417 !important;
 }
@@ -1317,14 +1317,14 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter5_section h1{ 
+.chapter5_section h1{
   color: #A01B17;
 }
 
 .chapter5_section .authors {
   border-bottom: 3px solid #A01B17;
   }
-  
+
 .chapter5_section h2,
 .chapter5_section h3,
 .chapter5_section h4
@@ -1340,7 +1340,7 @@ p.caption {
    color: black !important;
     text-decoration:underline !important;
  }
- 
+
   .chapter5_section .authors a:hover {
     color:#3a404a !important;
  }
@@ -1441,8 +1441,8 @@ margin-top:50px !important;
 
 /* Chapter 6 - Authors #96CBD2 */
 
-.chapter6 h1{ 
-  border-bottom: 3px solid #96CBD2; 
+.chapter6 h1{
+  border-bottom: 3px solid #96CBD2;
   font-size: 4.5em !important; text-transform: uppercase; line-height: 1em;
   margin-bottom:0.5em !important;
   margin-top:50px !important;
@@ -1466,7 +1466,7 @@ margin-top:50px !important;
 .chapter6_section .authors {
   border-bottom: 3px solid #96CBD2;
   }
-  
+
 .chapter6_section a.print-btn {
   color: #e6e3da !important;
   text-decoration:none !important;
@@ -1476,7 +1476,7 @@ margin-top:50px !important;
   border: solid 2px #96CBD2;
   color: #96CBD2 !important;
 }
-  
+
 .chapter6_section h2,
 .chapter6_section h3
 {
@@ -1501,7 +1501,7 @@ margin-top:50px !important;
   margin:0;
   padding:0;
 }
-.author-container h4 { 
+.author-container h4 {
   size:1em;
   margin-top:0 !important;
   padding-top:0;
@@ -1524,7 +1524,7 @@ margin-top:50px !important;
       display:block;
       padding-top:55px;
     }
-    
+
     .author-img-container {
     width:100%;
     margin:auto;
@@ -1536,9 +1536,9 @@ margin-top:50px !important;
 
 .chapter7 h7{ border-bottom: 3px solid #a8aca6; }
 
-.chapter7 h1{ 
-  border-bottom: 3px solid #a8aca6; 
-  font-size: 4.5em !important; text-transform: uppercase; line-height: 1em; 
+.chapter7 h1{
+  border-bottom: 3px solid #a8aca6;
+  font-size: 4.5em !important; text-transform: uppercase; line-height: 1em;
   margin-bottom:0.5em !important;
   margin-top:50px !important;
 }
@@ -1556,7 +1556,7 @@ margin-top:50px !important;
   margin-top:65px !important;
 }
 }
-  
+
 
 .chapter7_section h2,
 .chapter7_section h3
@@ -1567,4 +1567,3 @@ margin-top:50px !important;
 .chapter7_section a {
 	color: #a8aca6 !important;
 }
-
