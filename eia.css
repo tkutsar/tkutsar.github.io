@@ -297,6 +297,7 @@ h3 .header-section-number{
 .print-btn {
   float:none;
   max-width:175px;
+  font-size:0.6em;
 }
 }
 
