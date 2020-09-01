@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>6 Contributors and Editors | Estonian Human Development Report 2019/2020</title>
   <meta name="description" content="Spatial Choices for an Urbanised Society" />
-  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
   <meta property="og:title" content="6 Contributors and Editors | Estonian Human Development Report 2019/2020" />
   <meta property="og:type" content="book" />
@@ -48,11 +48,12 @@
 
 
 
-<script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
 <script src="libs/plotly-binding-4.9.2.1/plotly.js"></script>
 <script src="libs/typedarray-0.1/typedarray.min.js"></script>
-<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
-<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
 <link href="libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
 <script src="libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
 <link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
@@ -61,9 +62,9 @@
 <script src="libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
 <script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet-binding-2.0.2/leaflet.js"></script>
-<script src="libs/leaflet-providers-1.1.17/leaflet-providers.js"></script>
-<script src="libs/leaflet-providers-plugin-2.0.2/leaflet-providers-plugin.js"></script>
+<script src="libs/leaflet-binding-2.0.3/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="libs/leaflet-providers-plugin-2.0.3/leaflet-providers-plugin.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168674881-1"></script>
 <script>
@@ -83,9 +84,9 @@
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
@@ -94,14 +95,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -110,9 +113,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -160,218 +163,221 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul class="summary">
 <li class="chapter" data-level="" data-path="estonian-human-development-report-20192020.html"><a href="estonian-human-development-report-20192020.html"><i class="fa fa-check"></i>Estonian Human Development Report 2019/2020</a><ul>
 <li class="chapter" data-level="" data-path="foreword.html"><a href="foreword.html"><i class="fa fa-check"></i>Foreword</a></li>
-<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#põhisõnumid"><i class="fa fa-check"></i>Põhisõnumid</a></li>
-<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#eesti-on-inimarengus-edenenud-maailma-riikide-hulgas-30.-positsioonile-kuid-jäänud-sinna-püsima"><i class="fa fa-check"></i>Eesti on inimarengus edenenud maailma riikide hulgas 30. positsioonile, kuid jäänud sinna püsima</a></li>
-<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#eesti-suurlinnastumist-väljendab-suur-tallinna-jätkuv-kasv-inimesed-majandus-ja-teenused-koonduvad-tallinna-linnapiirkonda-ning-ülejäänud-eesti-kahaneb-ja-taandareneb"><i class="fa fa-check"></i>Eesti suurlinnastumist väljendab Suur-Tallinna jätkuv kasv: inimesed, majandus ja teenused koonduvad Tallinna linnapiirkonda ning ülejäänud Eesti kahaneb ja taandareneb</a></li>
-<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#eesti-inimeste-mitmepaiksus-seob-tallinna-maakondadega-ja-linnad-küladega"><i class="fa fa-check"></i>Eesti inimeste mitmepaiksus seob Tallinna maakondadega ja linnad küladega</a></li>
-<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#avalik-arutelu-loob-parema-elukeskkonna-ja-püüdleb-ühismeelele"><i class="fa fa-check"></i>Avalik arutelu loob parema elukeskkonna ja püüdleb ühismeelele</a></li>
-<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#ehituspärand-ja-loodusalad-kultuuri-osana-tugevdavad-eesti-inimeste-keskkonnasuhet-ja-kodutunnet"><i class="fa fa-check"></i>Ehituspärand ja loodusalad kultuuri osana tugevdavad Eesti inimeste keskkonnasuhet ja kodutunnet</a></li>
-<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#tulevikuvaade"><i class="fa fa-check"></i>Tulevikuvaade</a></li>
-<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html"><i class="fa fa-check"></i>Introduction</a><ul>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#põhisõnumid"><i class="fa fa-check"></i>Põhisõnumid</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#estonia-has-advanced-to-30th-position-in-the-world-in-terms-of-human-development-but-has-since-stalled"><i class="fa fa-check"></i>Estonia has advanced to 30th position in the world in terms of human development, but has since stalled</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#estonias-metropolisation-is-reflected-in-the-continued-growth-of-the-greater-tallinn-urban-area-where-people-economic-activity-and-services-are-concentrating-while-the-rest-of-estonia-is-shrinking-and-degenerating"><i class="fa fa-check"></i>Estonia’s metropolisation is reflected in the continued growth of the Greater Tallinn urban area, where people, economic activity and services are concentrating, while the rest of Estonia is shrinking and degenerating</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#the-multilocality-enjoyed-by-people-living-in-estonian-connects-tallinn-with-the-counties-and-the-cities-with-the-villages"><i class="fa fa-check"></i>The multilocality enjoyed by people living in Estonian connects Tallinn with the counties, and the cities with the villages</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#public-debate-results-in-a-better-living-environment-and-greater-consensus"><i class="fa fa-check"></i>Public debate results in a better living environment and greater consensus</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#built-heritage-and-natural-areas-as-part-of-our-culture-strengthen-peoples-relationship-with-the-environment-and-their-sense-of-belonging"><i class="fa fa-check"></i>Built heritage and natural areas as part of our culture strengthen people’s relationship with the environment and their sense of belonging</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#future-perspectivese"><i class="fa fa-check"></i>Future perspectivese</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="diversity-in-the-estonian-living-environment.html"><a href="diversity-in-the-estonian-living-environment.html"><i class="fa fa-check"></i><b>1</b> Diversity in the Estonian living environment</a><ul>
 <li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#põhisõnumid-1"><i class="fa fa-check"></i>Põhisõnumid</a></li>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#lähtekohad"><i class="fa fa-check"></i>Lähtekohad</a></li>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#artiklite-teemad"><i class="fa fa-check"></i>Artiklite teemad</a></li>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#eesti-maailmas"><i class="fa fa-check"></i>Eesti maailmas</a></li>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#kuidas-edasi"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#viidatud-allikad-1"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#points-of-departure"><i class="fa fa-check"></i>Points of departure</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#articles-in-this-chapter"><i class="fa fa-check"></i>Articles in this chapter</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#estonia-in-the-international-context"><i class="fa fa-check"></i>Estonia in the international context</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#how-do-we-move-forward"><i class="fa fa-check"></i>How do we move forward?</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="1.1" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><i class="fa fa-check"></i><b>1.1</b> Changes in land use: distortion of the meaning of urban and rural</a><ul>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#rahvastiku-vähenemine-ja-ränne-linnaregioonidesse-mõjutab-maastikke"><i class="fa fa-check"></i>Rahvastiku vähenemine ja ränne linnaregioonidesse mõjutab maastikke</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#ehitatud-alade-pindala-suureneb-peamiselt-linnade-ümbruses"><i class="fa fa-check"></i>Ehitatud alade pindala suureneb peamiselt linnade ümbruses</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#linnade-laialivalgumisega-ühtlustub-linna-ja-tagamaa-ruumikasutus"><i class="fa fa-check"></i>Linnade laialivalgumisega ühtlustub linna ja tagamaa ruumikasutus</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#põllumajandusmaastik-väheneb-ja-tühjeneb-inimestest"><i class="fa fa-check"></i>Põllumajandusmaastik väheneb ja tühjeneb inimestest</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#metsamaa-pindala-kasvab-kuid-okasmetsi-on-vähem-ja-metsad-noorenevad"><i class="fa fa-check"></i>Metsamaa pindala kasvab, kuid okasmetsi on vähem ja metsad noorenevad</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#suund-väärtuslike-põllumaade-säilitamisele-pidurdab-maastikumuutusi"><i class="fa fa-check"></i>Suund väärtuslike põllumaade säilitamisele pidurdab maastikumuutusi</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#väärtuslikud-maastikud-ja-kaitsealad-toetavad-maastike-üldilme-säilimist"><i class="fa fa-check"></i>Väärtuslikud maastikud ja kaitsealad toetavad maastike üldilme säilimist</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#viidatud-allikad-2"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#population-decline-and-migration-to-urban-regions-affect-landscapes"><i class="fa fa-check"></i>Population decline and migration to urban regions affect landscapes</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#built-up-areas-are-increasing-mostly-around-cities"><i class="fa fa-check"></i>Built-up areas are increasing mostly around cities</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#urban-sprawl-reduces-the-diversity-of-the-use-of-space-in-urban-areas-and-their-surroundings"><i class="fa fa-check"></i>Urban sprawl reduces the diversity of the use of space in urban areas and their surroundings</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#agricultural-landscape-is-shrinking-and-becoming-less-populated"><i class="fa fa-check"></i>Agricultural landscape is shrinking and becoming less populated</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#forest-land-is-growing-but-we-have-less-coniferous-forests-and-the-forests-are-becoming-younger"><i class="fa fa-check"></i>Forest land is growing but we have less coniferous forests and the forests are becoming younger</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#the-preservation-of-valuable-agricultural-lands-restrains-landscape-changes"><i class="fa fa-check"></i>The preservation of valuable agricultural lands restrains landscape changes</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#protecting-valuable-landscapes-and-conservation-areas-helps-preserve-the-overall-appearance-of-landscapes"><i class="fa fa-check"></i>Protecting valuable landscapes and conservation areas helps preserve the overall appearance of landscapes</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="1.2" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html"><i class="fa fa-check"></i><b>1.2</b> Increasing regional polarisation in Estonia</a><ul>
-<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#ääremaastumine-on-iseennast-taastootev-nõiaring"><i class="fa fa-check"></i>Ääremaastumine on iseennast taastootev nõiaring</a></li>
-<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#maapiirkondade-ja-väikelinnade-häbimärgistamine-süvendab-ääremaastumist"><i class="fa fa-check"></i>Maapiirkondade ja väikelinnade häbimärgistamine süvendab ääremaastumist</a></li>
-<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#konkurentsivõimele-keskenduv-regionaalpoliitika-ei-ole-ääremaastumist-vähendanud"><i class="fa fa-check"></i>Konkurentsivõimele keskenduv regionaalpoliitika ei ole ääremaastumist vähendanud</a></li>
-<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#ääremaastaatus-ja--kuvand-piiravad-koha-konkurentsivõime-kasvu"><i class="fa fa-check"></i>Ääremaastaatus ja -kuvand piiravad koha konkurentsivõime kasvu</a></li>
-<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#kokkuvõte-1"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li><a href="increasing-regional-polarisation-in-estonia.html#tänusõnad"><em>Tänusõnad</em></a></li>
-<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#viidatud-allikad-3"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#peripheralisation-is-self-reproducing"><i class="fa fa-check"></i>Peripheralisation is self-reproducing</a></li>
+<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#the-stigmatisation-of-rural-areas-and-small-towns-exacerbates-peripheralisation"><i class="fa fa-check"></i>The stigmatisation of rural areas and small towns exacerbates peripheralisation</a></li>
+<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#competitiveness-based-regional-policy-has-not-reduced-peripheralisation"><i class="fa fa-check"></i>Competitiveness-based regional policy has not reduced peripheralisation</a></li>
+<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#the-peripheral-status-and-image-of-a-place-sets-limits-to-its-competitiveness"><i class="fa fa-check"></i>The peripheral status and image of a place sets limits to its competitiveness</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li><a href="increasing-regional-polarisation-in-estonia.html#acknowledgements"><em>Acknowledgements</em></a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="1.3" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html"><i class="fa fa-check"></i><b>1.3</b> The triumph of planning freedom in suburban Estonia</a><ul>
-<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#kuidas-määratleda-eeslinna"><i class="fa fa-check"></i>Kuidas määratleda eeslinna?</a></li>
-<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#eeslinnas-elab-kümnendik-eesti-rahvast"><i class="fa fa-check"></i>Eeslinnas elab kümnendik Eesti rahvast</a></li>
-<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#eeslinnaasumeid-iseloomustab-katkendlik-asustusstruktuur"><i class="fa fa-check"></i>Eeslinnaasumeid iseloomustab katkendlik asustusstruktuur</a></li>
-<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#eeslinnamuster-sünnib-detailplaneeringute-summas"><i class="fa fa-check"></i>Eeslinnamuster sünnib detailplaneeringute summas</a></li>
-<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#turujõud-ja-planeerimispoliitika-väljenduvad-kohaloomes"><i class="fa fa-check"></i>Turujõud ja planeerimispoliitika väljenduvad kohaloomes</a></li>
-<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#kodulähedasi-avalikke-teenuseid-ja-avalikku-ruumi-eeslinnas-napib"><i class="fa fa-check"></i>Kodulähedasi avalikke teenuseid ja avalikku ruumi eeslinnas napib</a></li>
-<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#kokkuvõte-2"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#viidatud-allikad-4"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#how-to-define-a-suburb"><i class="fa fa-check"></i>How to define a suburb?</a></li>
+<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#one-tenth-of-estonians-live-in-the-suburbs"><i class="fa fa-check"></i>One-tenth of Estonians live in the suburbs</a></li>
+<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#suburban-neighbourhoods-are-characterised-by-a-fragmented-settlement-structure"><i class="fa fa-check"></i>Suburban neighbourhoods are characterised by a fragmented settlement structure</a></li>
+<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#the-pattern-of-a-new-suburb-emerges-as-the-sum-of-detailed-spatial-plans"><i class="fa fa-check"></i>The pattern of a new suburb emerges as the sum of detailed spatial plans</a></li>
+<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#place-making-as-an-expression-of-market-forces-and-planning-policy"><i class="fa fa-check"></i>Place-making as an expression of market forces and planning policy</a></li>
+<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#easily-accessible-public-services-and-spaces-are-limited-in-the-suburbs"><i class="fa fa-check"></i>Easily accessible public services and spaces are limited in the suburbs</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="1.4" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html"><i class="fa fa-check"></i><b>1.4</b> Modern living conditions – whose privilege?</a><ul>
-<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#tüüpiline-eestimaalane-elab-tüüpkorteris-eluasemefond-uueneb-kiiremini-pealinnaregioonis"><i class="fa fa-check"></i>Tüüpiline eestimaalane elab tüüpkorteris, eluasemefond uueneb kiiremini pealinnaregioonis</a></li>
-<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#eluasemefondi-seisukord-on-paranemas-kuid-viletsamas-seisus-on-maapiirkondade-eluruumid"><i class="fa fa-check"></i>Eluasemefondi seisukord on paranemas, kuid viletsamas seisus on maapiirkondade eluruumid</a></li>
-<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#majanduslik-kindlustatus---võti-elamistingimuste-parandamiseks"><i class="fa fa-check"></i>Majanduslik kindlustatus - võti elamistingimuste parandamiseks</a></li>
-<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#taasiseseisvumise-järel-oli-eluasemekorraldus-täielikult-suunatud-turupõhisele-eluasemefondile"><i class="fa fa-check"></i>Taasiseseisvumise järel oli eluasemekorraldus täielikult suunatud turupõhisele eluasemefondile</a></li>
-<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#avaliku-sektori-meetmeid-on-ajaga-lisandunud"><i class="fa fa-check"></i>Avaliku sektori meetmeid on ajaga lisandunud</a></li>
-<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#rekonstrueerimistoetused-aitavad-elamistingimusi-parandada-kuid-regiooniti-ebaühtlaselt"><i class="fa fa-check"></i>Rekonstrueerimistoetused aitavad elamistingimusi parandada, kuid regiooniti ebaühtlaselt</a></li>
-<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#võtmeküsimus-eluasemevaldkonnas-millised-on-sekkumise-võimalused"><i class="fa fa-check"></i>Võtmeküsimus eluasemevaldkonnas – millised on sekkumise võimalused?</a></li>
-<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#viidatud-allikad-5"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#a-typical-person-in-estonia-lives-in-a-soviet-era-mass-housing-apartment-the-housing-stock-is-renewed-faster-in-the-capital-region"><i class="fa fa-check"></i>A typical person in Estonia lives in a Soviet-era mass housing apartment; the housing stock is renewed faster in the capital region</a></li>
+<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#the-condition-of-the-housing-stock-is-improving-but-rural-housing-is-in-worse-condition"><i class="fa fa-check"></i>The condition of the housing stock is improving, but rural housing is in worse condition</a></li>
+<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#financial-security-key-to-improved-living-conditions"><i class="fa fa-check"></i>Financial security: key to improved living conditions</a></li>
+<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#the-housing-sector-was-fully-geared-towards-market-based-housing-after-independence-was-restored"><i class="fa fa-check"></i>The housing sector was fully geared towards market-based housing after independence was restored</a></li>
+<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#new-public-sector-measures-have-been-introduced-over-time"><i class="fa fa-check"></i>New public-sector measures have been introduced over time</a></li>
+<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#reconstruction-grants-help-to-improve-living-conditions-but-unevenly-across-regions"><i class="fa fa-check"></i>Reconstruction grants help to improve living conditions, but unevenly across regions</a></li>
+<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#the-key-question-in-the-housing-sector-is-what-are-the-options-for-intervention"><i class="fa fa-check"></i>The key question in the housing sector is – what are the options for intervention?</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="1.5" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html"><i class="fa fa-check"></i><b>1.5</b> Accessibility changes in motorised Estonia</a><ul>
-<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#aastate-kiire-autostumine-on-stabiliseerumas"><i class="fa fa-check"></i>1990. aastate kiire autostumine on stabiliseerumas</a></li>
-<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#autostumisel-on-mõju-keskkonnale-inimeste-tervisele-ja-võimalusele-liikuda-ning-teenuseid-kasutada"><i class="fa fa-check"></i>Autostumisel on mõju keskkonnale, inimeste tervisele ja võimalusele liikuda ning teenuseid kasutada</a></li>
-<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#hajaasustuse-elu-on-autokeskne"><i class="fa fa-check"></i>Hajaasustuse elu on autokeskne</a></li>
-<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#elu-eeslinnas-on-linnaelust-autokesksem"><i class="fa fa-check"></i>Elu eeslinnas on linnaelust autokesksem</a></li>
-<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#linnakeskuste-liikuvuse-arendamine-lähtub-autodest"><i class="fa fa-check"></i>Linnakeskuste liikuvuse arendamine lähtub autodest</a></li>
-<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#tulevikutrendid-erinevate-liikumisviiside-õigetes-mahtudes-võimaldamine-tagab-vähema-autokasutuse"><i class="fa fa-check"></i>Tulevikutrendid: erinevate liikumisviiside õigetes mahtudes võimaldamine tagab vähema autokasutuse</a></li>
-<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#viidatud-allikad-6"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#the-rapid-motorisation-of-the-1990s-is-stabilising"><i class="fa fa-check"></i>The rapid motorisation of the 1990s is stabilising</a></li>
+<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#motorisation-affects-the-environment-peoples-health-mobility-and-access-to-services"><i class="fa fa-check"></i>Motorisation affects the environment, people’s health, mobility and access to services</a></li>
+<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#life-in-low-density-areas-is-car-centred"><i class="fa fa-check"></i>Life in low-density areas is car-centred</a></li>
+<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#suburbs-are-more-car-centred-than-urban-centres"><i class="fa fa-check"></i>Suburbs are more car-centred than urban centres</a></li>
+<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#the-development-of-mobility-in-urban-centres-is-based-on-cars"><i class="fa fa-check"></i>The development of mobility in urban centres is based on cars</a></li>
+<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#future-trends-enabling-various-modes-of-mobility-in-suitable-volumes-will-reduce-the-use-of-cars"><i class="fa fa-check"></i>Future trends: enabling various modes of mobility in suitable volumes will reduce the use of cars</a></li>
+<li><a href="increasing-regional-polarisation-in-estonia.html#acknowledgements"><em>Acknowledgements</em></a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="public-urban-space.html"><a href="public-urban-space.html"><i class="fa fa-check"></i><b>2</b> Public urban space</a><ul>
 <li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html#põhisõnumid-2"><i class="fa fa-check"></i>Põhisõnumid</a></li>
-<li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html#lähtekohad-1"><i class="fa fa-check"></i>Lähtekohad</a></li>
-<li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html#artiklite-teemad-1"><i class="fa fa-check"></i>Artiklite teemad</a></li>
-<li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html#eesti-maailmas-1"><i class="fa fa-check"></i>Eesti maailmas</a></li>
-<li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html#kuidas-edasi-1"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
-<li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html#viidatud-allikad-7"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#points-of-departure"><i class="fa fa-check"></i>Points of departure</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#articles-in-this-chapter"><i class="fa fa-check"></i>Articles in this chapter</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#estonia-in-the-international-context"><i class="fa fa-check"></i>Estonia in the international context</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#how-do-we-move-forward"><i class="fa fa-check"></i>How do we move forward?</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="2.1" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html"><i class="fa fa-check"></i><b>2.1</b> Public space as an interconnecting network within the living environment</a><ul>
-<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#avalik-ruum-on-võrgustik-mis-seob-inimeste-elu--töö--ja-tegevuskohad"><i class="fa fa-check"></i>Avalik ruum on võrgustik, mis seob inimeste elu-, töö- ja tegevuskohad</a></li>
-<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#avaliku-ruumi-kvaliteedi-määrab-eelkõige-selle-sidusus-kõigile-kasutajatele"><i class="fa fa-check"></i>Avaliku ruumi kvaliteedi määrab eelkõige selle sidusus kõigile kasutajatele</a></li>
-<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#avaliku-ruumi-mõiste-on-eesti-õigussüsteemis-sisustamata"><i class="fa fa-check"></i>Avaliku ruumi mõiste on Eesti õigussüsteemis sisustamata</a></li>
-<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#avalik-sektor-ei-ole-end-üldjuhul-teadvustanud-avaliku-ruumi-esindaja-ja-tellijana"><i class="fa fa-check"></i>Avalik sektor ei ole end üldjuhul teadvustanud avaliku ruumi esindaja ja tellijana</a></li>
-<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#avalik-ruum-kui-võrgustik-on-tagatud-siis-kui-riik-ja-omavalitsused-tähtsustavad-seda-igas-ruumiotsuses-ja-igas-mõõtkavas"><i class="fa fa-check"></i>Avalik ruum kui võrgustik on tagatud siis, kui riik ja omavalitsused tähtsustavad seda igas ruumiotsuses ja igas mõõtkavas</a></li>
-<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#kokkuvõte-3"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#viidatud-allikad-8"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#public-space-is-a-network-connecting-peoples-homes-workplaces-and-other-activity-spaces"><i class="fa fa-check"></i>Public space is a network connecting people’s homes, workplaces and other activity spaces</a></li>
+<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#the-quality-of-public-space-is-mainly-determined-by-its-continuity-for-all-users"><i class="fa fa-check"></i>The quality of public space is mainly determined by its continuity for all users</a></li>
+<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#the-concept-of-public-space-has-not-been-defined-in-estonian-legislation"><i class="fa fa-check"></i>The concept of public space has not been defined in Estonian legislation</a></li>
+<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#the-public-sector-has-not-established-itself-as-an-advocate-and-commissioning-party-for-public-space"><i class="fa fa-check"></i>The public sector has not established itself as an advocate and commissioning party for public space</a></li>
+<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#the-public-space-can-only-function-as-a-network-if-the-state-and-local-governments-emphasise-it-in-spatial-decisions-at-every-level"><i class="fa fa-check"></i>The public space can only function as a network if the state and local governments emphasise it in spatial decisions at every level</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html"><i class="fa fa-check"></i><b>2.2</b> Built heritage and spatial quality</a><ul>
-<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#ehituspärand-aitab-luua-mitmekesist-ruumi"><i class="fa fa-check"></i>Ehituspärand aitab luua mitmekesist ruumi</a></li>
-<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#olemasolevate-ehitiste-säilitamine-on-kestliku-ruumilise-arengu-alus"><i class="fa fa-check"></i>Olemasolevate ehitiste säilitamine on kestliku ruumilise arengu alus</a></li>
-<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#üksikutel-ruumiotsustel-on-suur-mõju-nii-kultuuripärandile-kui-ka-regionaalarengule"><i class="fa fa-check"></i>Üksikutel ruumiotsustel on suur mõju nii kultuuripärandile kui ka regionaalarengule</a></li>
-<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#mälestised-on-ühine-hüve-ja-jagatud-vastutus"><i class="fa fa-check"></i>Mälestised on ühine hüve ja jagatud vastutus</a></li>
-<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#kokkuvõte-4"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#viidatud-allikad-9"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#built-heritage-helps-to-create-diverse-space"><i class="fa fa-check"></i>Built heritage helps to create diverse space</a></li>
+<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#the-conservation-of-existing-buildings-is-the-basis-for-sustainable-spatial-development"><i class="fa fa-check"></i>The conservation of existing buildings is the basis for sustainable spatial development</a></li>
+<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#individual-spatial-decisions-have-a-major-impact-on-cultural-heritage-and-regional-development"><i class="fa fa-check"></i>Individual spatial decisions have a major impact on cultural heritage and regional development</a></li>
+<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#monuments-are-a-common-good-and-a-shared-responsibility"><i class="fa fa-check"></i>Monuments are a common good and a shared responsibility</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html"><i class="fa fa-check"></i><b>2.3</b> Urban activism in the co-creation of public space</a><ul>
-<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#ruumiaktivism-on-ajas-muutuv-ja-eesmärkidest-sõltuv-ruumipoliitiline-tegevus"><i class="fa fa-check"></i>Ruumiaktivism on ajas muutuv ja eesmärkidest sõltuv ruumipoliitiline tegevus</a></li>
-<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#ruumiaktivism-rakendab-olemasolevaid-ja-leiutab-uusi-osalusdemokraatia-mudeleid"><i class="fa fa-check"></i>Ruumiaktivism rakendab olemasolevaid ja leiutab uusi osalusdemokraatia mudeleid</a></li>
-<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#ruumiaktivism-kannustab-kodanikuühiskonna-arengut"><i class="fa fa-check"></i>Ruumiaktivism kannustab kodanikuühiskonna arengut</a></li>
-<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#ruumiloomes-osalevate-liikumiste-ja-üksikisikute-mõju-väljendub-uutes-osaluskultuuri-vormides"><i class="fa fa-check"></i>Ruumiloomes osalevate liikumiste ja üksikisikute mõju väljendub uutes osaluskultuuri vormides</a></li>
-<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#aktivismi-väljakutsed-ruumiloomes"><i class="fa fa-check"></i>Aktivismi väljakutsed ruumiloomes</a></li>
-<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#kokkuvõte-5"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#viidatud-allikad-10"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#urban-activism-as-a-political-activity-changes-in-time-and-its-form-varies-according-to-the-aims-pursued"><i class="fa fa-check"></i>Urban activism as a political activity changes in time and its form varies according to the aims pursued</a></li>
+<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#urban-activism-implements-existing-models-and-invents-new-models-of-participatory-democracy"><i class="fa fa-check"></i>Urban activism implements existing models and invents new models of participatory democracy</a></li>
+<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#urban-activism-spurs-the-development-of-civil-society"><i class="fa fa-check"></i>Urban activism spurs the development of civil society</a></li>
+<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#the-impact-of-movements-and-individuals-involved-in-spatial-design-is-expressed-in-new-forms-of-participatory-culture"><i class="fa fa-check"></i>The impact of movements and individuals involved in spatial design is expressed in new forms of participatory culture</a></li>
+<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#challenges-to-activism-in-urban-design"><i class="fa fa-check"></i>Challenges to activism in urban design</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html"><i class="fa fa-check"></i><b>2.4</b> Data-driven spatial planning</a><ul>
-<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#avalikest-ruumiandmetest-on-ühiskonnal-ainult-võita"><i class="fa fa-check"></i>Avalikest ruumiandmetest on ühiskonnal ainult võita</a></li>
-<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#andmepõhine-ruumiloome-eestis-on-lapsekingades"><i class="fa fa-check"></i>Andmepõhine ruumiloome Eestis on lapsekingades</a></li>
-<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#koostatud-ruumianalüüside-ja-tehtud-otsuste-vahelised-seosed-on-harva-tuvastatavad"><i class="fa fa-check"></i>Koostatud ruumianalüüside ja tehtud otsuste vahelised seosed on harva tuvastatavad</a></li>
-<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#aeg-andmepõhise-ruumiloome-juurutamiseks-on-küps"><i class="fa fa-check"></i>Aeg andmepõhise ruumiloome juurutamiseks on küps</a></li>
-<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#sabassörkijast-on-võimalik-tõusta-eestvedajaks"><i class="fa fa-check"></i>Sabassörkijast on võimalik tõusta eestvedajaks</a></li>
-<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#kokkuvõte-6"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#viidatud-allikad-11"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#open-access-spatial-data-can-only-benefit-society"><i class="fa fa-check"></i>Open-access spatial data can only benefit society</a></li>
+<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#first-steps-in-data-driven-spatial-planning-in-estonia"><i class="fa fa-check"></i>First steps in data-driven spatial planning in Estonia</a></li>
+<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#clear-connections-between-spatial-analyses-and-subsequent-decisions-are-rare"><i class="fa fa-check"></i>Clear connections between spatial analyses and subsequent decisions are rare</a></li>
+<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#high-time-to-introduce-data-driven-spatial-planning"><i class="fa fa-check"></i>High time to introduce data-driven spatial planning</a></li>
+<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#from-follower-to-leader"><i class="fa fa-check"></i>From follower to leader</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="natural-environment-as-a-public-good.html"><a href="natural-environment-as-a-public-good.html"><i class="fa fa-check"></i><b>3</b> Natural environment as a public good</a><ul>
 <li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#põhisõnumid-3"><i class="fa fa-check"></i>Põhisõnumid</a></li>
-<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#looduskeskkonna-seisundist-keskkonnaõigluse-ja-keskkonnademokraatiani"><i class="fa fa-check"></i>Looduskeskkonna seisundist keskkonnaõigluse ja keskkonnademokraatiani</a></li>
-<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#looduskeskkonna-ühiskondlik-roll-vajab-senisest-terviklikumat-jälgimist"><i class="fa fa-check"></i>Looduskeskkonna ühiskondlik roll vajab senisest terviklikumat jälgimist</a></li>
-<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#eesti-looduse-seisundi-koondnäitajad-on-halvenenud"><i class="fa fa-check"></i>Eesti looduse seisundi koondnäitajad on halvenenud</a></li>
-<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#looduses-viibimiseks-on-palju-valikuid-kuid-need-ahenevad"><i class="fa fa-check"></i>Looduses viibimiseks on palju valikuid, kuid need ahenevad</a></li>
-<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#koduümbruse-loodus-ja-asulate-rohealad-vajavad-senisest-enam-tähelepanu"><i class="fa fa-check"></i>Koduümbruse loodus ja asulate rohealad vajavad senisest enam tähelepanu</a></li>
-<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#tulevikuvaade-1"><i class="fa fa-check"></i>Tulevikuvaade</a></li>
-<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#viidatud-allikad-12"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#from-the-condition-of-the-natural-environment-to-environmental-justice-and-environmental-democracy"><i class="fa fa-check"></i>From the condition of the natural environment to environmental justice and environmental democracy</a></li>
+<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#the-social-role-of-the-natural-environment-requires-better-monitoring"><i class="fa fa-check"></i>The social role of the natural environment requires better monitoring</a></li>
+<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#the-overall-condition-of-estonian-nature-has-deteriorated"><i class="fa fa-check"></i>The overall condition of Estonian nature has deteriorated</a></li>
+<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#the-options-for-spending-time-in-nature-are-narrowing"><i class="fa fa-check"></i>The options for spending time in nature are narrowing</a></li>
+<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#neighbourhood-natural-areas-and-urban-green-spaces-require-more-attention-from-planners"><i class="fa fa-check"></i>Neighbourhood natural areas and urban green spaces require more attention from planners</a></li>
+<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#future-perspectives"><i class="fa fa-check"></i>Future perspectives</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="3.1" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html"><i class="fa fa-check"></i><b>3.1</b> How do people use the natural environment in Estonia?</a><ul>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#eesti-looduskeskkonna-avaliku-kasutamise-alus-on-igaüheõigus"><i class="fa fa-check"></i>Eesti looduskeskkonna avaliku kasutamise alus on igaüheõigus</a></li>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#eesti-loodus--ja-matkarajad-pakuvad-häid-puhkevõimalusi"><i class="fa fa-check"></i>Eesti loodus- ja matkarajad pakuvad häid puhkevõimalusi</a></li>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#kaitsealade-külastajaskond-suureneb-ja-mitmekesistub"><i class="fa fa-check"></i>Kaitsealade külastajaskond suureneb ja mitmekesistub</a></li>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#linnades-on-palju-rohealasid-kuid-nende-kvaliteet-vajab-tähelepanu"><i class="fa fa-check"></i>Linnades on palju rohealasid, kuid nende kvaliteet vajab tähelepanu</a></li>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#teave-inimeste-looduskasutuse-kohta-on-lünklik"><i class="fa fa-check"></i>Teave inimeste looduskasutuse kohta on lünklik</a></li>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#pool-elanikkonnast-käib-marjul-või-seenel"><i class="fa fa-check"></i>Pool elanikkonnast käib marjul või seenel</a></li>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#loodusandide-korjamist-toetavad-loodusharidus-liikuvus-ja-maastiku-planeerimine"><i class="fa fa-check"></i>Loodusandide korjamist toetavad loodusharidus, liikuvus ja maastiku planeerimine</a></li>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#jahipidamine-ühendab-loodusharrastuse-ja-ühiskondliku-ootuse"><i class="fa fa-check"></i>Jahipidamine ühendab loodusharrastuse ja ühiskondliku ootuse</a></li>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#harrastuskalastajate-arv-on-eestis-püsiv"><i class="fa fa-check"></i>Harrastuskalastajate arv on Eestis püsiv</a></li>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#kokkuvõte-7"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#viidatud-allikad-13"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#the-public-use-of-the-estonian-natural-environment-is-based-on-everymans-right"><i class="fa fa-check"></i>The public use of the Estonian natural environment is based on everyman’s right</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#estonian-educational-and-hiking-trails-offer-good-recreational-opportunities"><i class="fa fa-check"></i>Estonian educational and hiking trails offer good recreational opportunities</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#the-number-of-visitors-to-conservation-areas-is-increasing-and-the-visitor-profiles-are-diversifying"><i class="fa fa-check"></i>The number of visitors to conservation areas is increasing and the visitor profiles are diversifying</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#towns-and-cities-have-many-green-spaces-but-their-quality-requires-attention"><i class="fa fa-check"></i>Towns and cities have many green spaces, but their quality requires attention</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#information-on-the-use-of-natural-areas-is-fragmentary"><i class="fa fa-check"></i>Information on the use of natural areas is fragmentary</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#half-of-the-population-go-berry-or-mushroom-picking"><i class="fa fa-check"></i>Half of the population go berry or mushroom picking</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#nature-education-mobility-and-landscape-planning-contribute-to-foraging-for-wild-produce"><i class="fa fa-check"></i>Nature education, mobility and landscape planning contribute to foraging for wild produce</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#hunting-combines-outdoorsmanship-with-meeting-societal-expectations"><i class="fa fa-check"></i>Hunting combines outdoorsmanship with meeting societal expectations</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#the-number-of-recreational-fishermen-in-estonia-is-stable"><i class="fa fa-check"></i>The number of recreational fishermen in Estonia is stable</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="3.2" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html"><i class="fa fa-check"></i><b>3.2</b> The impact of natural areas on people’s well-being</a><ul>
-<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#loodusalade-pindala-seos-eesti-täiskasvanute-tervisehinnangutega"><i class="fa fa-check"></i>Loodusalade pindala seos Eesti täiskasvanute tervisehinnangutega</a></li>
-<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#loodusaladest-saadavat-tervisekasu-ei-arvestata-planeerimisel-piisavalt"><i class="fa fa-check"></i>Loodusaladest saadavat tervisekasu ei arvestata planeerimisel piisavalt</a></li>
-<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#inimesed-seisavad-silmitsi-loodusalade-nõrgenenud-puhverdusvõimega"><i class="fa fa-check"></i>Inimesed seisavad silmitsi loodusalade nõrgenenud puhverdusvõimega</a></li>
-<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#loodusalade-potentsiaal-avaneb-hariduse-kaudu"><i class="fa fa-check"></i>Loodusalade potentsiaal avaneb hariduse kaudu</a></li>
-<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#kokkuvõte-8"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#viidatud-allikad-14"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#the-relationship-between-the-size-of-natural-areas-and-the-self-reported-health-of-estonian-adults"><i class="fa fa-check"></i>The relationship between the size of natural areas and the self-reported health of Estonian adults</a></li>
+<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#the-health-benefits-of-natural-areas-are-not-sufficiently-taken-into-account-during-planning"><i class="fa fa-check"></i>The health benefits of natural areas are not sufficiently taken into account during planning</a></li>
+<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#the-buffering-capacity-of-natural-areas-is-weakening"><i class="fa fa-check"></i>The buffering capacity of natural areas is weakening</a></li>
+<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#education-is-key-to-unlocking-the-potential-of-natural-areas"><i class="fa fa-check"></i>Education is key to unlocking the potential of natural areas</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html"><i class="fa fa-check"></i><b>3.3</b> Shaping natural areas for public use</a><ul>
-<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#loodusalade-planeerimisel-lähtutakse-lähimuspõhimõttest"><i class="fa fa-check"></i>Loodusalade planeerimisel lähtutakse lähimuspõhimõttest</a></li>
-<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#loodusalade-seisundit-mõjutavad-nii-rahvusvahelised-arengueesmärgid-kui-ka-riiklik-valdkonnapoliitika"><i class="fa fa-check"></i>Loodusalade seisundit mõjutavad nii rahvusvahelised arengueesmärgid kui ka riiklik valdkonnapoliitika</a></li>
-<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#loodusaladel-on-erinevad-juurdepääsuvõimalused-ja-kasutuskitsendused"><i class="fa fa-check"></i>Loodusaladel on erinevad juurdepääsuvõimalused ja kasutuskitsendused</a></li>
-<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#rohevõrgustik-seob-loodusalad-tervikuks-kuid-selle-toimimine-pole-tervikuna-tagatud"><i class="fa fa-check"></i>Rohevõrgustik seob loodusalad tervikuks, kuid selle toimimine pole tervikuna tagatud</a></li>
-<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#kokkuvõte-9"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#viidatud-allikad-15"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#the-planning-of-natural-areas-is-based-on-the-principle-of-subsidiarity"><i class="fa fa-check"></i>The planning of natural areas is based on the principle of subsidiarity</a></li>
+<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#international-development-objectives-and-national-policies-influence-the-status-of-natural-areas"><i class="fa fa-check"></i>International development objectives and national policies influence the status of natural areas</a></li>
+<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#natural-areas-have-different-access-options-and-restrictions-on-use"><i class="fa fa-check"></i>Natural areas have different access options and restrictions on use</a></li>
+<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#the-green-network-connects-natural-areas-but-its-function-as-a-whole-is-not-guaranteed"><i class="fa fa-check"></i>The green network connects natural areas, but its function as a whole is not guaranteed</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="3.4" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html"><i class="fa fa-check"></i><b>3.4</b> Public participation in decisions on the use of natural areas</a><ul>
 <li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#aastate-sündmused-tingisid-nõukogude-eestis-avaliku-keskkonnaarutelu"><i class="fa fa-check"></i>1980. aastate sündmused tingisid Nõukogude Eestis avaliku keskkonnaarutelu</a></li>
-<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#eesti-praegune-osalemis--ja-keskkonnainfo-avalikustamise-normistik-on-hea"><i class="fa fa-check"></i>Eesti praegune osalemis- ja keskkonnainfo avalikustamise normistik on hea</a></li>
-<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#avaliku-ruumi-kujundamisel-on-avalikkusel-üldjuhul-õigus-kaasa-rääkida"><i class="fa fa-check"></i>Avaliku ruumi kujundamisel on avalikkusel üldjuhul õigus kaasa rääkida</a></li>
-<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#hoolimata-õigusest-osaleda-on-eesti-elanikud-passiivsed-ja-pessimistlikud"><i class="fa fa-check"></i>Hoolimata õigusest osaleda on Eesti elanikud passiivsed ja pessimistlikud</a></li>
-<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#sihtrühmad-ootavad-tõhusamate-kaasamismeetodite-kasutuselevõttu"><i class="fa fa-check"></i>Sihtrühmad ootavad tõhusamate kaasamismeetodite kasutuselevõttu</a></li>
-<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#sisuka-kaasarääkimise-eelduseks-on-keskkonnainfo-olemasolu-ja-kättesaadavus"><i class="fa fa-check"></i>Sisuka kaasarääkimise eelduseks on keskkonnainfo olemasolu ja kättesaadavus</a></li>
-<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#loodust-jälgiv-elanikkond-edendab-kodanikuühiskonda"><i class="fa fa-check"></i>Loodust jälgiv elanikkond edendab kodanikuühiskonda</a></li>
-<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#kokkuvõte-10"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#viidatud-allikad-16"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#the-current-legal-framework-on-public-participation-and-environmental-information-in-estonia-is-sound"><i class="fa fa-check"></i>The current legal framework on public participation and environmental information in Estonia is sound</a></li>
+<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#the-public-can-mostly-participate-in-the-management-of-public-space"><i class="fa fa-check"></i>The public can mostly participate in the management of public space</a></li>
+<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#despite-the-right-to-participate-estonians-are-passive-and-pessimistic"><i class="fa fa-check"></i>Despite the right to participate, Estonians are passive and pessimistic</a></li>
+<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#stakeholders-expect-more-effective-methods-of-participation"><i class="fa fa-check"></i>Stakeholders expect more effective methods of participation</a></li>
+<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#access-to-environmental-information-is-a-requirement-for-substantive-public-participation"><i class="fa fa-check"></i>Access to environmental information is a requirement for substantive public participation</a></li>
+<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#citizens-that-follow-the-natural-environment-promote-civil-society"><i class="fa fa-check"></i>Citizens that follow the natural environment promote civil society</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="estonian-deliberative-space.html"><a href="estonian-deliberative-space.html"><i class="fa fa-check"></i><b>4</b> Estonian deliberative space</a><ul>
 <li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html#põhisõnumid-4"><i class="fa fa-check"></i>Põhisõnumid</a></li>
-<li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html#lähtekohad-2"><i class="fa fa-check"></i>Lähtekohad</a></li>
-<li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html#artiklite-kokkuvõte"><i class="fa fa-check"></i>Artiklite kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html#kuidas-edasi-2"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
-<li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html#viidatud-allikad-17"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#points-of-departure"><i class="fa fa-check"></i>Points of departure</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#articles-in-this-chapter"><i class="fa fa-check"></i>Articles in this chapter</a></li>
+<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#how-do-we-move-forward"><i class="fa fa-check"></i>How do we move forward?</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="4.1" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html"><i class="fa fa-check"></i><b>4.1</b> Socio-political discussion in the digital public space</a><ul>
-<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#sotsiaalmeedia-lubavused-soodustavad-emotsioonipõhist-suhtlust"><i class="fa fa-check"></i>Sotsiaalmeedia lubavused soodustavad emotsioonipõhist suhtlust</a></li>
-<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#interneti-kasutamine-eestis"><i class="fa fa-check"></i>Interneti kasutamine Eestis</a></li>
-<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#suletud-tähendusloome-tekitab-polariseerumist"><i class="fa fa-check"></i>Suletud tähendusloome tekitab polariseerumist</a></li>
-<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#avatud-tähendusloome-kaasab-eri-osapooli"><i class="fa fa-check"></i>Avatud tähendusloome kaasab eri osapooli</a></li>
-<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#kokkuvõte-11"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#viidatud-allikad-18"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#the-affordances-of-social-media-encourage-emotion-based-communication"><i class="fa fa-check"></i>The affordances of social media encourage emotion-based communication</a></li>
+<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#internet-use-in-estonia"><i class="fa fa-check"></i>Internet use in Estonia</a></li>
+<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#closed-meaning-creation-evokes-polarisation"><i class="fa fa-check"></i>Closed meaning creation evokes polarisation</a></li>
+<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#open-meaning-creation-involves-various-parties"><i class="fa fa-check"></i>Open meaning creation involves various parties</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html"><i class="fa fa-check"></i><b>4.2</b> Estonian youth in the virtual opinion space</a><ul>
-<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#eesti-lapsed-kasutavad-internetti-iga-päev"><i class="fa fa-check"></i>Eesti lapsed kasutavad internetti iga päev</a></li>
-<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#laste-digitaalne-kirjaoskus-paraneb"><i class="fa fa-check"></i>Laste digitaalne kirjaoskus paraneb</a></li>
-<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#digiosalus-ei-paelu-eesti-noori"><i class="fa fa-check"></i>Digiosalus ei paelu Eesti noori</a></li>
-<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#eesti-noorte-osalustüübid"><i class="fa fa-check"></i>Eesti noorte osalustüübid</a></li>
-<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#noorte-digiosalust-takistavad-tegurid"><i class="fa fa-check"></i>Noorte digiosalust takistavad tegurid</a></li>
-<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#noored-tajuvad-virtuaalse-arvamusruumi-kitsaskohti"><i class="fa fa-check"></i>Noored tajuvad virtuaalse arvamusruumi kitsaskohti</a></li>
-<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#kokkuvõte-12"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li><a href="estonian-youth-in-the-virtual-opinion-space.html#tänusõnad-1"><em>Tänusõnad</em></a></li>
-<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#viidatud-allikad-19"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#estonian-children-use-the-internet-daily"><i class="fa fa-check"></i>Estonian children use the internet daily</a></li>
+<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#childrens-digital-literacy-is-improving"><i class="fa fa-check"></i>Children’s digital literacy is improving</a></li>
+<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#digital-participation-does-not-appeal-to-estonian-youth"><i class="fa fa-check"></i>Digital participation does not appeal to Estonian youth</a></li>
+<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#types-of-civic-participation-among-estonian-youth"><i class="fa fa-check"></i>Types of civic participation among Estonian youth</a></li>
+<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#factors-hindering-the-digital-participation-of-young-people"><i class="fa fa-check"></i>Factors hindering the digital participation of young people</a></li>
+<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#young-people-perceive-the-weaknesses-of-the-virtual-opinion-space"><i class="fa fa-check"></i>Young people perceive the weaknesses of the virtual opinion space</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li><a href="increasing-regional-polarisation-in-estonia.html#acknowledgements"><em>Acknowledgements</em></a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html"><i class="fa fa-check"></i><b>4.3</b> The deliberative space shaped by the press</a><ul>
-<li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#metsandusdebatis-ei-toonud-avalik-arutelu-eksperte-üksteisele-lähemale"><i class="fa fa-check"></i>Metsandusdebatis ei toonud avalik arutelu eksperte üksteisele lähemale</a></li>
-<li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#kokkuvõte-14"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#viidatud-allikad-21"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#media-control-of-the-opinion-space-in-traditional-media-channels"><i class="fa fa-check"></i>Media control of the opinion space in traditional media channels</a></li>
+<li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#inclusive-architecture-and-the-functioning-of-online-journalism"><i class="fa fa-check"></i>Inclusive architecture and the functioning of online journalism</a></li>
+<li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#the-contradictory-potential-of-social-media"><i class="fa fa-check"></i>The contradictory potential of social media</a></li>
+<li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="the-role-and-status-of-experts-in-societal-media-discussions.html"><a href="the-role-and-status-of-experts-in-societal-media-discussions.html"><i class="fa fa-check"></i><b>4.4</b> The role and status of experts in societal media discussions</a><ul>
+<li class="chapter" data-level="" data-path="the-role-and-status-of-experts-in-societal-media-discussions.html"><a href="the-role-and-status-of-experts-in-societal-media-discussions.html#the-role-of-scientists-in-societal-debates"><i class="fa fa-check"></i>The role of scientists in societal debates</a></li>
+<li class="chapter" data-level="" data-path="the-role-and-status-of-experts-in-societal-media-discussions.html"><a href="the-role-and-status-of-experts-in-societal-media-discussions.html#a-plan-for-a-wood-processing-plant-encouraged-academics-to-lead-the-public-debate"><i class="fa fa-check"></i>A plan for a wood processing plant encouraged academics to lead the public debate</a></li>
+<li class="chapter" data-level="" data-path="the-role-and-status-of-experts-in-societal-media-discussions.html"><a href="the-role-and-status-of-experts-in-societal-media-discussions.html#public-debate-on-forestry-did-not-bring-experts-any-closer-together"><i class="fa fa-check"></i>Public debate on forestry did not bring experts any closer together</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="estonian-living-environment-in-2050.html"><a href="estonian-living-environment-in-2050.html"><i class="fa fa-check"></i><b>5</b> Estonian living environment in 2050</a><ul>
 <li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#põhisõnumid-5"><i class="fa fa-check"></i>Põhisõnumid</a></li>
-<li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#mis-on-stsenaariumiplaneerimine"><i class="fa fa-check"></i>Mis on stsenaariumiplaneerimine?</a></li>
-<li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#peamised-suundumused"><i class="fa fa-check"></i>Peamised suundumused</a></li>
-<li><a href="introduction-5.html#tänusõnad-2"><em>Tänusõnad</em></a></li>
-<li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#kasutatud-prognoosid-ja-stsenaariumid"><i class="fa fa-check"></i>Kasutatud prognoosid ja stsenaariumid</a></li>
-<li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#viidatud-allikad-22"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#what-is-scenario-planning"><i class="fa fa-check"></i>What is scenario planning?</a></li>
+<li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#main-trends"><i class="fa fa-check"></i>Main trends</a></li>
+<li><a href="introduction-5.html#acknowledgements50"><em>Acknowledgements</em></a></li>
+<li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#forecasts-and-scenarios-used"><i class="fa fa-check"></i>Forecasts and scenarios used</a></li>
+<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="estonia-2050-scenarios.html"><a href="estonia-2050-scenarios.html"><i class="fa fa-check"></i>Estonia 2050 scenarios</a><ul>
-<li class="chapter" data-level="" data-path="estonia-2050-scenarios.html"><a href="estonia-2050-scenarios.html#tulevikustsenaarumide-põhiteljed-on-asustusstruktuur-ja-avalik-ruum"><i class="fa fa-check"></i>Tulevikustsenaarumide põhiteljed on asustusstruktuur ja avalik ruum</a></li>
-</ul></li>
+<li class="chapter" data-level="" data-path="estonia-2050-scenarios.html"><a href="estonia-2050-scenarios.html"><i class="fa fa-check"></i>Estonia 2050 scenarios</a></li>
 <li class="chapter" data-level="" data-path="estonia-voluntarily-forced-into-cities.html"><a href="estonia-voluntarily-forced-into-cities.html"><i class="fa fa-check"></i>Estonia voluntarily forced into cities</a></li>
 <li class="chapter" data-level="" data-path="one-hour-estonia.html"><a href="one-hour-estonia.html"><i class="fa fa-check"></i>One-hour Estonia</a></li>
 <li class="chapter" data-level="" data-path="estonia-of-rogues-and-rascals.html"><a href="estonia-of-rogues-and-rascals.html"><i class="fa fa-check"></i>Estonia of rogues and rascals</a></li>
@@ -409,12 +415,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3>Editor-in-chief</h3>
 <div id="helen-sooväli-sepping" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb73"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb73-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/HelenSoovali-Sepping.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb83"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb83-1"><a href="contributors-and-editors.html#cb83-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/HelenSoovali-Sepping.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/HelenSoovali-Sepping.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="helen-sooväli-sepping" class="unnumbered head-editor-name">Helen Sooväli-Sepping</h4>
-<p>on Tallinna Ülikooli jätkusuutliku arengu prorektor, keskkonnakorralduse professor ja kultuurigeograafia vanemteadur. Ta vastutab TLÜs keskkonnakorralduse ja linnakorralduse magistriõppekava eest. Tema põhilised uurimisteemad käsitlevad ruumi- ja maastikuplaneerimist. Praegu huvitavad teda kõige enam kultuuri ja kogukondlikkuse aspektid, samuti säästva arengu ja säilenõtkuse teemad nii linna- kui ka maapiirkonnas, keskkonnapoliitika ning kodanikuteadus.</p>
+<p>is the Vice-Rector of Sustainable Development, Professor of Environmental Studies and Senior Researcher of Cultural Geography at Tallinn University. She is responsible for the master’s programmes in environmental studies and urban planning at the university. Her main research topics are spatial and landscape planning. Currently, she is most interested in cultural and community aspects, as well as sustainable development and resilience in urban and rural areas, environmental policy and civic studies.</p>
 </div>
 </div>
 </div>
@@ -422,52 +428,52 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3>Editors</h3>
 <div id="kristi-grišakov" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb74"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb74-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KristiGrisakov.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb84"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb84-1"><a href="contributors-and-editors.html#cb84-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KristiGrisakov.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/KristiGrisakov.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="kristi-grišakov" class="unnumbered editor-name">Kristi Grišakov</h4>
-<p>on Tallinna Tehnikaülikooli arhitektuuri ja urbanistika akadeemia lektor ja maastikuarhitektuuri õppekavade programmijuht. Tema uurimistöö keskendub prognooside ja stsenaariumide kasutusvõimalustele ruumianalüüsis ja tulevikuvisioonide koostamisel. Süvitsi on ta uurinud piiriüleste linnade (Tallinn-Helsingi) temaatikat, Euroopa Liidu ruumipoliitikat, sealhulgas suurte taristuprojektide mõju kohalikule keskkonnale ja uute tehnoloogiate mõju linnakeskkonnale.</p>
+<p>is a Lecturer at the Academy of Architecture and Urban Studies and the Programme Director for landscape architecture programmes at the Tallinn University of Technology (TalTech). Her research focuses on the use of forecasts and scenarios in spatial analysis and visioning. She has studied cross-border cities (Tallinn-Helsinki), the spatial policy of the EU, including the impact of major infrastructure projects on the local environment and the impact of new technologies on the urban environment.</p>
 </div>
 </div>
 <div id="indrek-ibrus" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb75"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb75-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/IndrekIbrus.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb85"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb85-1"><a href="contributors-and-editors.html#cb85-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/IndrekIbrus.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/IndrekIbrus.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="indrek-ibrus" class="unnumbered editor-name">Indrek Ibrus</h4>
-<p>on Tallinna Ülikooli Balti filmi, meedia, kunstide ja kommunikatsiooni instituudi (BFM) meediainnovatsiooni professor ning TLÜ meediainnovatsiooni ja digikultuuri tippkeskuse juhataja. Ta juhib TLÜs ka audiovisuaalkunstide ja meediauuringute doktoriõppekava. Tema peamised uurimisteemad on meedia innovatsioon ja digikultuur seotuna majandusteaduslike innovatsiooniuuringute ning mitmesuguste kultuuri uurimise meetodite ja lähenemistega.</p>
+<p>is a Professor of Media Innovation at the Baltic Film, Media, Arts and Communication School at Tallinn University (TLU), and Head of the TLU Centre of Excellence in Media Innovation and Digital Culture. He is also in charge of the doctoral programme in audiovisual arts and media studies at TLU. His main research topics are media innovation and digital culture, linked to economic innovation research and a variety of cultural research methods and approaches.</p>
 </div>
 </div>
 <div class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb76"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb76-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/EppLankots.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb86"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb86-1"><a href="contributors-and-editors.html#cb86-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/EppLankots.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/EppLankots.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="epp-lankots" class="unnumbered editor-name">Epp Lankots</h4>
-<p>on Eesti Kunstiakadeemia teadusprorektor ning kunstiteaduse ja visuaalkultuuri instituudi vanemteadur. Tema uurimisteemad on 20. sajandi arhitektuur ja elukeskkond, Nõukogude uuringud, ruumi- ja materiaalse kultuuri teooriad, 20. sajandi arhitektuurihistoriograafia ja kunstiajalookirjutus. 2015. aastal sai ta Eesti Kultuurkapitali arhitektuuri sihtkapitali tegevuspreemia arhitektuurialase teadustöö eest.</p>
+<p>is the Vice Rector of Research and Senior Researcher at the Institute of Art History and Visual Culture at the Estonian Academy of Arts. Her research topics include 20th-century architecture and living environment, Soviet studies, spatial and material culture theories, 20th-century architectural historiography and art historiography. In 2015, she received the Annual Award of the Cultural Endowment of Estonia for her research in architecture.</p>
 </div>
 </div>
 <div id="kadri-leetmaa" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb77"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb77-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KadriLeetmaa.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb87"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb87-1"><a href="contributors-and-editors.html#cb87-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KadriLeetmaa.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/KadriLeetmaa.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="kadri-leetmaa" class="unnumbered editor-name">Kadri Leetmaa</h4>
-<p>on Tartu Ülikooli ökoloogia ja maateaduste instituudi inimgeograafia vanemteadur ning TÜ rände- ja linnauuringute keskuse juhataja. Tema uurimisteemad on ränne ja ebavõrdsus ruumis, inimeste elukohaeelistused linnades, rahvustevahelised kontaktid ühiskonnas ja ruumis, linna- ja regionaalplaneerimine. Alates 2017. aastast on ta Euroopa Liidu koostööprogrammi URBACT Eesti esindaja.</p>
+<p>is a Senior Researcher of human geography at the Institute of Ecology and Earth Sciences of the University of Tartu (UT), and Head of the UT Centre for Migration and Urban Studies. Her research topics include migration and inequality in space, people’s preferences for living in cities, inter-ethnic contacts in society and space, as well as urban and regional planning. Since 2017, she has been the Estonian representative of the EU cooperation programme URBACT.</p>
 </div>
 </div>
 <div id="asko-lõhmus" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb78"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb78-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AskoLohmus.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb88"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb88-1"><a href="contributors-and-editors.html#cb88-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AskoLohmus.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/AskoLohmus.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="asko-lõhmus" class="unnumbered editor-name">Asko Lõhmus</h4>
-<p>on loomaökoloog, Tartu Ülikooli juhtivteadur ja loodusressursside õppetooli juhataja. Tema teadustöö on aastakümnetega laienenud elurikkuse säilitamise ja säästva arengu laiale teemavaldkonnale, eriti looduslike ökosüsteemide säästlikule majandamisele. Ta on osalenud eksperdina paljudes riiklikes planeerimisprotsessides ning tema huvialade hulka kuulub ka säästva arengu juhtimine, muu hulgas kodanikuühiskonna kaudu.</p>
+<p>is an animal ecologist, Senior Researcher and Head of the Chair of Natural Resources at the University of Tartu. Over the past decades, his research has expanded to include a broad range of subjects in biodiversity conservation and sustainable development, especially the sustainable management of natural ecosystems. He has been involved as an expert in many national planning processes, and his interests include managing sustainable development, for example, through civil society.</p>
 </div>
 </div>
 </div>
@@ -475,342 +481,342 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3>Contributors</h3>
 <div id="dago-antov" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb79"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb79-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/DagoAntov.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb89"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb89-1"><a href="contributors-and-editors.html#cb89-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/DagoAntov.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/DagoAntov.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="dago-antov" class="unnumbered author-name">Dago Antov</h4>
-<p>on Tallinna Tehnikaülikooli transpordiplaneerimise professor ning transpordi ja logistika teaduskeskuse juht. Tema peamised uurimisteemad on liikuvus, liikumisviiside lõimivus, liiklusvõrkude analüüs ja liikluse mõjud, eelkõige liiklemise ohutus. Ta on avaldanud enam kui 40 teadusartiklit ja juhendanud ligi 50 doktori- ja magistritööd. Ta on õpetanud liikuvusega seonduvaid kursusi TTÜs, Eesti Kunstiakadeemias, Sisekaitseakadeemias, Tartu Ülikoolis ja mujal.</p>
+<p>is a Professor of Transport Planning and the Head of the Research Centre of Logistics and Transportation at the Tallinn University of Technology (TalTech). His main research topics are mobility, integration of modes of transport, analysis of traffic networks, and the effects of traffic and traffic safety in particular. He has published more than 40 scientific articles and supervised nearly 50 doctoral and master’s theses. He has taught mobility-related courses at TalTech, the Estonian Academy of Arts, the Estonian Academy of Security Sciences, the University of Tartu and elsewhere.</p>
 </div>
 </div>
 <div id="mihkel-kaevats" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb80"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb80-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/MihkelKaevats.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb90"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb90-1"><a href="contributors-and-editors.html#cb90-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/MihkelKaevats.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/MihkelKaevats.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="mihkel-kaevats" class="unnumbered author-name">Mihkel Kaevats</h4>
-<p>on luuletaja, kriitik, TLÜ doktorant ja kodanikuaktivist, kes on praegu Tallinn 2021+ strateegia üks koostajatest. Ta oli üks Prussakovi nimelise rattaühingu (1997–2009) ja Uue Maailma Seltsi (2006–2013) eestvedajatest. Kirgliku jalgratturi ja jalutajana jälgib ta pidevalt ruumi ning seda kasutavaid inimesi. Tema osalusel valmiva Tallinna strateegia keskmes on hea avalik ruum ja arenguhüpe liikuvuses.</p>
+<p>is a poet, critic, PhD student at Tallinn University and an activist, who is currently one of the authors of the Tallinn 2021+ strategy. He was one of the founders of the Prussakov Cycling Association (1997–2009) and the Uus Maailm Society (2006–2013). As a passionate cyclist and walker, he is constantly aware of space and the people who use it. The strategy being prepared for Tallinn with his involvement focuses on good public space and improved mobility.</p>
 </div>
 </div>
 <div id="veronika-kalmus" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb81"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb81-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/VeronikaKalmus.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb91"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb91-1"><a href="contributors-and-editors.html#cb91-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/VeronikaKalmus.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/VeronikaKalmus.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="veronika-kalmus" class="unnumbered author-name">Veronika Kalmus</h4>
-<p>on Tartu Ülikooli sotsioloogia professor. Tema uurimishuvid on seotud põlvkondade, sotsialiseerumise, hariduse, väärtuste, noorte kodanikuosaluse, meedia- ja ajakasutuse ning ühiskondlike muutuste, sealhulgas sotsiaalse aja kiirenemisega. Rahvusvahelise teadlasvõrgustiku EU Kids Online aktiivse liikmena ja Eesti töörühma juhina keskendub ta laste ja noorte internetikasutusele ning selle sotsiaalsele vahendamisele. 2008. aastal pälvis ta Vabariigi Presidendi Kultuurirahastu noore teadlase preemia.</p>
+<p>is a Professor of Sociology at the University of Tartu. Her research interests are related to generations, socialisation, education, values, civic participation of young people, media and time use, and the acceleration of social changes, including social time. As an active member of the international research network EU Kids Online and head of the Estonian working group, she focuses on how children and youth use the internet and the social mediation of their internet use. In 2008, she received the Young Scientist Award from the Cultural Foundation of the President of Estonia.</p>
 </div>
 </div>
 <div id="raul-kalvo" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb82"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb82-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/RaulKalvo.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb92"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb92-1"><a href="contributors-and-editors.html#cb92-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/RaulKalvo.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/RaulKalvo.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="raul-kalvo" class="unnumbered author-name">Raul Kalvo</h4>
-<p>on arhitekt, ettevõtte Inphysica Technology asutaja, Eesti Kunstiakadeemia digitaalse geomeetria õppejõud. Tema peamine huvi on ruumiliste andmetega seotud otsuste tegemine ning sellest lähtuv tarkvaraarendus. Levinuim neist on Urban Network Analysis toolbox for Rhino. Ta on seotud mitme liikuvusuuringu ja strateegiaprojektiga Eestis ning keskkonna tervisemõjude hindamisega Soomes. Lisaks teadustööle tegeleb ta projektidega sisearhitektuurist linnaehituseni.</p>
+<p>is an architect, founder of the company inphysica technology, and a lecturer of Digital Geometry at the Estonian Academy of Arts. His main interest is decision-making related to spatial data, and the resulting software development. The most wide-spread of these is the Urban Network Analysis toolbox for Rhino. He is involved in several mobility research and strategy projects in Estonia and environmental health impact assessments in Finland. In addition to research, he is involved in projects ranging from interior architecture to urban development.</p>
 </div>
 </div>
 <div id="elo-kiivet" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb83"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb83-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/EloKiivet.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb93"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb93-1"><a href="contributors-and-editors.html#cb93-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/EloKiivet.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/EloKiivet.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="elo-kiivet" class="unnumbered author-name">Elo Kiivet</h4>
-<p>on arhitekt ja urbanist, Linnalabori juhatuse liige, Paide linnaarhitekt ning neljandat aastat arvamusfestivali välialade ja linnaruumi kujunduse kuraator. Tema peamised huvid on avalik ruum, kohaloome ja ruumiharidus. Õpetanud Tallinna Tehnikakõrgkoolis, Tallinna Ülikoolis ja Eesti Kunstiakadeemias ning Arhitektuurikoolis ja Tallinna Kunstigümnaasiumis.</p>
+<p>is an architect and urbanist, a board member of the Urban Lab, city architect of Paide and, for the fourth year, curator of the outdoor areas and urban spaces section of the opinion festival Arvamusfestival in Paide. Her main interests are public space, place-making and spatial education. She has taught at the TTK University of Applied Sciences, Tallinn University and the Estonian Academy of Arts, as well as at the School of Architecture (Arhitektuurikool) and Tallinn Secondary School of Arts.</p>
 </div>
 </div>
 <div id="keiti-kljavin" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb84"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb84-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KeitiKljavin.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb94"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb94-1"><a href="contributors-and-editors.html#cb94-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KeitiKljavin.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/KeitiKljavin.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="keiti-kljavin" class="unnumbered author-name">Keiti Kljavin</h4>
-<p>on urbanist, Linnalabori juhatuse liige ja urbanistide väljaande U toimetaja. Praegu juhendab ta Eesti Kunstiakadeemia arhitektuuri ja linnaplaneerimise osakonnas urbanistika ja sisearhitektuuri magistrante nende lõputöödes ja erialastuudiotes.</p>
+<p>is an urbanist, board member of the Urban Lab, and editor of the Estonian Urbanists Review U. She currently supervises master’s students in urban studies and interior architecture at the department of Architecture and Urban Design at the Estonian Academy of Arts with their theses and studio work.</p>
 </div>
 </div>
 <div id="kaija-luisa-kurik" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb85"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb85-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/Kaija-LuisaKurik.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb95"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb95-1"><a href="contributors-and-editors.html#cb95-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/Kaija-LuisaKurik.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/Kaija-LuisaKurik.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="kaija-luisa-kurik" class="unnumbered author-name">Kaija-Luisa Kurik</h4>
-<p>on Manchesteri arhitektuuriülikooli doktorant ning Heritage Action Zone’i regeneratsiooniprojekti projektijuht Rochdale’is. Tema peamised uurimisteemad on linnade regeneratsioon, postsotsialistlik linnaruum ning planeerimispraktika muutused.</p>
+<p>is a PhD student at the Manchester School of Architecture and project manager for the Heritage Action Zone regeneration project in Rochdale. Her main research topics are urban regeneration, post-socialist urban space and changes in planning practice.</p>
 </div>
 </div>
 <div id="ragne-kõuts-klemm" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb86"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb86-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/RagneKouts-Klemm.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb96"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb96-1"><a href="contributors-and-editors.html#cb96-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/RagneKouts-Klemm.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/RagneKouts-Klemm.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="ragne-kõuts-klemm" class="unnumbered author-name">Ragne Kõuts-Klemm</h4>
-<p>on Tartu Ülikooli ajakirjandussotsioloogia dotsent ja ühiskonnateaduste instituudi asejuhataja. Tema teadustöö valdkonnad on keskendunud meediakasutusele ja ühiskonna muutumisele, laiemalt on teda huvitanud meedia roll ühiskondliku sidususe tekkes. Praeguseks on tema teemade hulka lisandunud ka ajakirjanduses toimunud muutuste analüüs ja tõlgendamine.</p>
+<p>is an Associate Professor of the Sociology of Journalism and Deputy Head of the Institute of Social Studies at the University of Tartu. Her research focuses on media use and societal change, and more broadly, the role of media with regard to social cohesion. Her current research topics also include the analysis and interpretation of changes in journalism.</p>
 </div>
 </div>
 <div id="anneli-kährik" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb87"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb87-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AnneliKahrik.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb97"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb97-1"><a href="contributors-and-editors.html#cb97-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AnneliKahrik.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/AnneliKahrik.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="anneli-kährik" class="unnumbered author-name">Anneli Kährik</h4>
-<p>on Tartu Ülikooli linnageograafia vanemteadur. Tema peamised uurimisteemad on ränne, segregatsioon, linna- ja eluasemepoliitika. Praegu keskendub tema uurimistöö peamiselt segregatsiooni ja lõimumise seostele eri eluvaldkondades (pere, elukoht, kool, töö), mida ta uurib Eesti ja Soome suurte riigiandmete (loendused, registrid) alusel. 2013–2016 töötas ta teadurina Uppsala ülikoolis, uurides segregatsiooni Rootsis. Ta on avaldanud artikleid kõrgetasemelistes erialaajakirjades.</p>
+<p>is a Senior Research Fellow in Urban Geography at the University of Tartu. Her main research topics are migration, segregation, urban and housing policy. Her research currently focuses on the links between segregation and integration in different spheres of life (family, place of residence, school, work), which she studies on the basis of large-scale national data (censuses, registers) from Estonia and Finland. Between 2013–2016, she was a fellow at Uppsala University, studying segregation in Sweden. She has published articles in high-level academic journals.</p>
 </div>
 </div>
 <div id="mait-lang" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb88"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb88-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/MaitLang.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb98"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb98-1"><a href="contributors-and-editors.html#cb98-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/MaitLang.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/MaitLang.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="mait-lang" class="unnumbered author-name">Mait Lang</h4>
-<p>on Tartu Ülikooli Tartu Observatooriumi vanemteadur ja Eesti Maaülikooli metsandus- ja maaehitusinstituudi dotsent. Tema peamised uurimisteemad on seotud looduse kaugseirega ning ruumi- ja kaugseireandmete töötlemisega.</p>
+<p>is a Senior Research Fellow at Tartu Observatory, University of Tartu, and an Associate Professor at the Institute of Forestry and Rural Engineering at the Estonian University of Life Sciences. His main research topics are related to the remote monitoring of nature, and processing spatial and remote monitoring data.</p>
 </div>
 </div>
 <div id="bradley-loewen" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb89"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb89-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/BradleyLoewen.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb99"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb99-1"><a href="contributors-and-editors.html#cb99-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/BradleyLoewen.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/BradleyLoewen.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="bradley-loewen" class="unnumbered author-name">Bradley Loewen</h4>
-<p>on kaitsnud doktorikraadi Tartu Ülikooli majandusteaduskonnas ning oli Marie Curie innovaatilise koolituse võrgustiku RegPol 2 karjääri alustav teadlane Tšehhis, Ungaris ja Eestis. Ta on Norra teadus- ja tehnikaülikooli NTNU säästva ehituse teadur ning töötanud Briti Columbia ja Toronto ülikoolis. Tema uurimisteemad hõlmavad Euroopa linna- ja regionaalplaneerimist ning poliitikat, institutsioone, valitsemist ja innovatsiooni.</p>
+<p>has a PhD in economics from the University of Tartu and was a Marie Curie Early Stage Researcher in the Innovative Training Network RegPol2 based in the Czech Republic, Hungary and Estonia. He is a Researcher in Sustainable Built Environment at the Norwegian University of Science and Technology NTNU, and has held positions at the University of British Columbia and University of Toronto. His research interests span European urban and regional planning, policy, institutions, governance and innovation.</p>
 </div>
 </div>
 <div id="mari-liis-madisson" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb90"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb90-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/Mari-LiisMadisson.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb100"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb100-1"><a href="contributors-and-editors.html#cb100-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/Mari-LiisMadisson.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/Mari-LiisMadisson.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="mari-liis-madisson" class="unnumbered author-name">Mari-Liis Madisson</h4>
-<p>on Tartu Ülikooli semiootika teadur, kelle peamised uurimisteemad on identiteediloome, strateegilised narratiivid ja veebikeskkondades leviv desinformatsioon. Ta on teinud koostööd Kaitseväe Ühendatud Õppeasutustega ning osalenud sõjalist kommunikatiivset pettetegevust käsitlevates uurimisprojektides. 2019 alustas ta Belfasti Queen’si ülikoolis järeldoktorantuuri, mis on pühendatud strateegiliste vandenõunarratiivide semiootilisele uurimisele.</p>
+<p>is a Research Fellow in Semiotics at the University of Tartu. Her main research topics are identity constructions, strategic narratives and disinformation in online environments. She has collaborated with the Estonian Military Academy and participated in research projects involved with military communications deception. In 2019, she began a post-doctoral fellowship at Queen’s University Belfast, dedicated to the semiotic study of strategic conspiracy narratives.</p>
 </div>
 </div>
 <div id="tõnu-oja" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb91"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb91-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/TonuOja.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb101"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb101-1"><a href="contributors-and-editors.html#cb101-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/TonuOja.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/TonuOja.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="tõnu-oja" class="unnumbered author-name">Tõnu Oja</h4>
-<p>on Tartu Ülikooli geoinformaatika ja kartograafia õppetooli juhataja ning professor. Tema peamised uurimisvaldkonnad on maastikuökoloogia ja säästlik areng.</p>
+<p>is a Professor and the Chair of Geoinformatics and Cartography at the University of Tartu. His main research interests are landscape ecology and sustainable development.</p>
 </div>
 </div>
 <div id="arko-olesk" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb92"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb92-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/ArkoOlesk.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb102"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb102-1"><a href="contributors-and-editors.html#cb102-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/ArkoOlesk.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/ArkoOlesk.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="arko-olesk" class="unnumbered author-name">Arko Olesk</h4>
-<p>on teadusajakirjanik ja Tallinna Ülikooli Balti filmi, meedia, kunstide ja kommunikatsiooni instituudi teaduskommunikatsiooni lektor. Tema keskne uurimisteema on teadlaste suhtlus ajakirjandusega, samuti tunneb ta huvi innovatsiooni- ja keskkonnakommunikatsiooni vastu. Ta juhib Raadio 2s populaarteaduslikku saadet „Puust ja punaseks“.</p>
+<p>is a research journalist and a lecturer of Research Communication at the Baltic Film, Media, Arts and Communication School, Tallinn University. His main research topic is researcher interaction with the press; he is also interested in innovation communication and environmental communication. He hosts the popular science programme Puust ja punaseks on Raadio 2.</p>
 </div>
 </div>
 <div id="hans-orru" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb93"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb93-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/HansOrru.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb103"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb103-1"><a href="contributors-and-editors.html#cb103-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/HansOrru.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/HansOrru.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="hans-orru" class="unnumbered author-name">Hans Orru</h4>
-<p>on Tartu Ülikooli keskkonnatervishoiu dotsent ning Umea ülikooli külalisteadur. Tema peamised uurimisvaldkonnad on väliskeskkonna mõju inimeste tervisele. Selle raames on ta keskendunud õhusaastele ja kliimamuutustele, kuid viimasel ajal ka põlevkivisektorile, siseõhusaastele ja müra tervisemõjudele. Viimase 15 aasta jooksul on ta osalenud enam kui 30 teadus- või rakendusuuringus, millel on olnud oluline mõju keskkonna tervisemõjude teadvustamisele ühiskonnas.</p>
+<p>is an Associate Professor of Environmental Health at the University of Tartu and a Visiting Fellow at Umeå University. His main research area is the health impact of the external environment. Within his research, he has focused on air pollution and climate change, but more recently also on the oil shale sector, indoor air pollution and the health impact of noise. Over the past 15 years, he has been involved in more than 30 research or development projects which have had a significant effect in raising public awareness about the health effects of the environment.</p>
 </div>
 </div>
 <div id="kati-orru" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb94"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb94-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KatiOrru.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb104"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb104-1"><a href="contributors-and-editors.html#cb104-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KatiOrru.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/KatiOrru.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="kati-orru" class="unnumbered author-name">Kati Orru</h4>
-<p>on kestlikkuse sotsioloogia vanemteadur Tartu Ülikooli ühiskonnateaduste instituudis ja külalisteadur King’s College Londonis. Tema uurimisvaldkonnad on sotsiaalne ja piirkondlik ebavõrdsus transpordi- ja energiatarbimises ning selle keskkonnamõjud, planeeringute sotsiaalsete mõjude hindamise metoodika, sotsiotehniliste süsteemide jätkusuutlik areng. Ta juhib tööpakki H2020 BuildERS projektis kogukondade kerksusest hädaolukordades. Ta on olnud järeldoktorantuuris Umea ülikooli keskkonna- ja tervisepsühholoogia uurimisrühmas.</p>
+<p>is a Senior Research Fellow in Sustainability Sociology at the University of Tartu Institute of Social Sciences and a Visiting Fellow at King’s College London. Her research topics include social and regional inequality in transport and energy consumption and its environmental impacts, the methodology for assessing the social impact of planning, and the sustainable development of socio-technical systems. She is in charge of the work package H2020 in the BuildERS project on the resilience of communities in emergency situations. She was a post-doctoral researcher in the Environmental and Health Psychology Research Group at Umeå University.</p>
 </div>
 </div>
 <div id="toomas-paaver" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb95"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb95-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/ToomasPaaver.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb105"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb105-1"><a href="contributors-and-editors.html#cb105-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/ToomasPaaver.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/ToomasPaaver.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="toomas-paaver" class="unnumbered author-name">Toomas Paaver</h4>
-<p>on Eesti Kunstiakadeemia arhitektuuri ja linnaplaneerimise eriala doktorant. Tema peamine uurimisteema on arhitekti töö ühiskondlik roll. Tema mitmekesine praktika ruumiloome valdkonnas hõlmab töid linna- ja riigiametnikuna, asumiseltsi aktivistina, arhitektina ja õpetajana. Tema töö on olnud seotud planeeringutega, tänavate ja hoonete ehitusprojektidega, lähteülesannetega, õigusloomega ning seoste loomisega ruumiloomeprotsessides.</p>
+<p>is a doctoral student of architecture and urban planning at the Estonian Academy of Arts. His main research topic is the social role of the work of an architect. His varied practice in the field of spatial design includes work as a city and state official, a community activist, an architect and a teacher. His work has involved planning, construction documents for streets and buildings, terms of reference, legislation, and establishing connections in the processes of spatial design.</p>
 </div>
 </div>
 <div id="ingmar-pastak" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb96"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb96-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/IngmarPastak.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb106"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb106-1"><a href="contributors-and-editors.html#cb106-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/IngmarPastak.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/IngmarPastak.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="ingmar-pastak" class="unnumbered author-name">Ingmar Pastak</h4>
-<p>on omandamas doktorikraadi geograafias ja töötab Tartu Ülikooli inimgeograafia nooremteadurina. Tema peamised uurimisteemad on sotsiaalruumiline ebavõrdsus, gentrifikatsioon nii rahvastikuprotsessi kui ka ettevõtluskeskkonna muutusena ning laiemalt linnaplaneerimine targa linna innovatsioonidest kaasamispraktikateni. Ta õpetab TÜ linnageograafia ja –planeerimisega seonduvaid kursusi.</p>
+<p>is a PhD candidate in geography and is working as a Junior Research Fellow of Human Geography at the University of Tartu. His main research topics are socio-spatial inequality, gentrification as a change in the demographic process and the business environment, and more broadly, urban planning from smart city innovations to participatory practices. He teaches courses related to urban geography and urban planning at the University of Tartu.</p>
 </div>
 </div>
 <div id="johanna-pirrus" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb97"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb97-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/JohannaPirrus.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb107"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb107-1"><a href="contributors-and-editors.html#cb107-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/JohannaPirrus.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/JohannaPirrus.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="johanna-pirrus" class="unnumbered author-name">Johanna Pirrus</h4>
-<p>on Tartu Ülikooli geograafia osakonna inimgeograafia doktorant. Tema peamine uurimisteema on kaasav linnaplaneerimine ja –valitsemine. Tema praegune uurimistöö keskendub eelkõige paneelelamupiirkondade avaliku ja sotsiaalse ruumi küsimustele ning headele tavadele. Lisaks teadustööle tegeleb ta geograafia osakonnas õpetamise ja lõputööde juhendamisega.</p>
+<p>is a PhD student of human geography at the Department of Geography, University of Tartu. Her main research topic is participatory urban planning and management. Her current research focuses on public and social space issues and good practices in Soviet-era mass housing districts. In addition to research, she also teaches and supervises theses at the Department of Geography.</p>
 </div>
 </div>
 <div id="bianka-plüschke-altof" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb98"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb98-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/BiankaPluschke-Altof.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb108"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb108-1"><a href="contributors-and-editors.html#cb108-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/BiankaPluschke-Altof.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/BiankaPluschke-Altof.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="bianka-plüschke-altof" class="unnumbered author-name">Bianka Plüschke-Altof</h4>
-<p>on Tallinna Ülikooli keskkonnasotsioloogia teadur. Ta on õppinud ja töötanud Berliini Humboldti ülikoolis, Varssavi ülikoolis, Slovakkia tehnikaülikoolis ja Tartu Ülikoolis. Tema uurimistöö keskendub sotsiaal-ruumilisele ebavõrdsusele ning ruumi loomise praktikatele ja diskursustele. Doktoritöös uuris ta territoriaalse häbimärgistamise teemat Eesti maakohtade näitel. Lisaks uurib ta linnakeskkonna küsimusi TLÜ uurimisrühmas „Inimese ja looduse vastastikmõju linnastuvas maailmas“.</p>
+<p>is a Researcher in Environmental Sociology at Tallinn University. She has studied and worked at Humboldt-Universität zu Berlin, the University of Warsaw, the Slovak University of Technology and the University of Tartu. Her research focuses on socio-spatial inequality and the practices and discourses of space creation. Her doctoral thesis discussed territorial stigmatisation in Estonian rural areas. She is also a part of the Tallinn University research group ‘Human-nature interactions in an urbanising world’ investigating urban environment issues.</p>
 </div>
 </div>
 <div id="age-poom" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb99"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb99-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AgePoom.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb109"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb109-1"><a href="contributors-and-editors.html#cb109-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AgePoom.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/AgePoom.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="age-poom" class="unnumbered author-name">Age Poom</h4>
-<p>on Helsingi Ülikooli järeldoktorantuuri teadur ja Tartu Ülikooli keskkonnakaitse lektor. Ta tegeleb inimeste liikuvuse, tegevusruumi ja keskkonna vastastikusteseoste uurimisega, sealhulgas analüüsides rohealadega kokkupuudet ja keskkonnariskidele avatust. Talle pakub huvi säästva liikumise ja tarbimise ning targa ja jätkusuutliku linna temaatika. TÜ mobiilsuslabori liikmena tegeleb ta mobiilipõhiste ruumikasutusuuringute andmetaristu arendamise ja väliskoostööprojektidega.</p>
+<p>is a post-doctoral researcher at the University of Helsinki and a lecturer of Environmental Protection at the University of Tartu. She studies the interrelationship between human mobility, activity spaces and the environment, including exposure to green spaces and environmental risks. She is interested in sustainable mobility and consumption, as well as the smart and sustainable city. As a member of the Mobility Lab at the University of Tartu, she is involved with the development of the infrastructure for spatial research based on mobile positioning data, and external collaboration projects.</p>
 </div>
 </div>
 <div id="renee-puussepp" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb100"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb100-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/ReneePuusepp.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb110"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb110-1"><a href="contributors-and-editors.html#cb110-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/ReneePuusepp.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/ReneePuusepp.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="renee-puusepp" class="unnumbered author-name">Renee Puusepp</h4>
-<p>on arhitekt, ettevõtte Creatomus Solutions asutaja ja tegevjuht, Eesti Kunstiakadeemia vanemteadur. EKA arhitektuuriteaduskonnas täidab ta teadustöö juhi kohustusi. Oma varasemas uurimistöös keskendus ta eelkõige dünaamiliste simulatsioonide loomisele ja sidumisele arhitektuuri ja planeerimise vahendite ja meetoditega. Praegu juhib ta masskohandatavate tehasemajade uurimis- ja tootearendussuunda.</p>
+<p>is an architect, founder and CEO of Creatomus Solutions, and a Senior Researcher at the Estonian Academy of Arts (EAA). He holds the position of Research Director at the Faculty of Architecture, EAA. In his earlier research, he focused primarily on creating dynamic simulations and linking these to architectural and planning tools and methods. He is currently in charge of R&amp;D for mass-customised prefabricated housing.</p>
 </div>
 </div>
 <div id="siim-raie" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb101"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb101-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/SiimRaie.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb111"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb111-1"><a href="contributors-and-editors.html#cb111-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/SiimRaie.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/SiimRaie.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="siim-raie" class="unnumbered author-name">Siim Raie</h4>
-<p>on Muinsuskaitseameti peadirektor. Õppinud ärijuhtimist Estonian Business Schoolis ning muinsuskaitse ja konserveerimise eriala Eesti Kunstiakadeemias, kus jätkuvad ka doktoriõpingud. Tema uurimistöö teema on mälestise omanikud, nende identiteet ja motivatsioon. Varem on ta töötanud Vabariigi Presidendi Kantselei direktori ja Eesti Kaubandus-Tööstuskoja peadirektorina.</p>
+<p>is the Director General of the Estonian National Heritage Board. He has studied business administration at the Estonian Business School, and heritage protection and conservation/restoration at the Estonian Academy of Arts, where he is also a PhD student. His thesis focuses on the owners of cultural monuments, their identity and motivation. Previously, he has worked as the Director of the Office of the President of the Republic of Estonia, and the Director General of the Estonian Chamber of Commerce and Industry.</p>
 </div>
 </div>
 <div id="merlin-rehema" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb102"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb102-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/MerlinRehema.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb112"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb112-1"><a href="contributors-and-editors.html#cb112-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/MerlinRehema.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/MerlinRehema.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="merlin-rehema" class="unnumbered author-name">Merlin Rehema</h4>
-<p>on Tallinna Ülikooli humanitaarteaduste instituudi kultuurigeograafia suuna doktorant ning Hendrikson &amp; Ko liikuvusspetsialist. Oma doktoritöös uurib ta jalgsi liikumist mõjutavaid füüsilisi ja ühiskondlikke tegureid ning nende võimalikke mõjutusmehhanisme. Peamised uurimishuvid ja töövaldkonnad on eri tasandite liikuvusuuringud ning säästva transpordi planeerimine liikuvuskavade ja linnaruumi muutuste kaudu.</p>
+<p>is a PhD student of cultural geography at the Tallinn University School of Humanities and a mobility specialist at Hendrikson &amp; Ko. Her doctoral thesis examines the physical and social factors that influence walking for transportation and their possible mechanisms of influence. Her main research interests and areas of work are mobility studies at different levels, and sustainable transport planning through mobility plans and changes in the urban space.</p>
 </div>
 </div>
 <div id="liina-remm" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb103"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb103-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/LiinaRemm.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb113"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb113-1"><a href="contributors-and-editors.html#cb113-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/LiinaRemm.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/LiinaRemm.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="liina-remm" class="unnumbered author-name">Liina Remm</h4>
-<p>on Tartu Ülikooli looduskaitsebioloogia teadur. Oma uurimistöödes tegeleb ta elurikkuse hoidmise ja looduslikkuse taastamise võtetega. Teemavaldkonnad on varieerunud säästvast metsamajandamisest ja soode taastamisest looduse hüvede ehk ökosüsteemiteenuste kaardistamiseni. Ta on osalenud rohkem kui 15 teadusartikli ja paljude populaarteaduslike artiklite kirjutamisel. Loodusharidust jagab ta üliõpilaste juhendaja, õppejõu ja Eestimaa Looduse Fondi talgujuhina.</p>
+<p>is a Research Fellow in Conservation Biology at the University of Tartu. Her research deals with techniques for conserving biodiversity and rewilding. Her topics of interest have ranged from sustainable forest management and restoration of marshes to the mapping of natural goods or ecosystem services. She has contributed to more than 15 scientific articles and many popular science articles. She is an educator in the field of ecology as a supervisor of students, lecturer and a leader of the Estonian Fund for Nature.</p>
 </div>
 </div>
 <div id="antti-roose" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb104"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb104-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AnttiRoose.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb114"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb114-1"><a href="contributors-and-editors.html#cb114-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AnttiRoose.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/AnttiRoose.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="antti-roose" class="unnumbered author-name">Antti Roose</h4>
-<p>on Tartu Regiooni Energiaagentuuri kliima- ja energiaprojektide juht. Tema linnastumisuuringud on keskendunud eeslinnadele, energiakasutusele, planeerimisele ning kliimamuutustega kohanemisele. Toimetas õpikut „Peatükke planeerimisest“ (2013). On koostanud ruumilise arengu dokumente nii Euroopa Liidu kui ka väikevaldade tasemel. Euroopa territoriaalse koostöö ekspert.</p>
+<p>is the Head of Climate and Energy Projects at the Tartu Regional Energy Agency. His research on urbanisation has focused on suburbs, energy use, planning and adaptation to climate change. He was an editor of the textbook Peatükke planeerimisest (Chapters on Planning, 2013). He has compiled spatial development documents both at the EU level and at the level of small municipalities. Roose is an expert on European Territorial Co-operation.</p>
 </div>
 </div>
 <div id="kalev-sepp" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb105"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb105-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KalevSepp.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb115"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb115-1"><a href="contributors-and-editors.html#cb115-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KalevSepp.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/KalevSepp.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="kalev-sepp" class="unnumbered author-name">Kalev Sepp</h4>
-<p>on Eesti Maaülikooli keskkonnakaitse ja maastikukorralduse professor ning samanimelise õppetooli juhataja. Tema lai uurimisvaldkond hõlmab maakasutuse muutusi ja selle mõju elurikkusele, maastiku planeerimist, kaitsealade jätkusuutlikust, loodushoiu mõju regionaalsele arengule, loodusehüvede hindamist ja kaardistamist, kaugseire rakendamist maastikuseires. Ta on osalenud eksperdina paljude riiklike metoodikate ja strateegiadokumentide koostamisel. Rahvusvahelise Looduskaitseliidu ekspert.</p>
+<p>is a Professor of Environmental Protection and Landscape Management at the Estonian University of Life Sciences, and the Head of the Chair of the same name. His broad research interests include changes in land use and their impact on biodiversity, landscape planning, the sustainability of protected areas, the impact of nature conservation on regional development, the assessment and mapping of natural assets, and landscape monitoring using remote sensing. He has been involved as an expert in the preparation of many national methodologies and strategy papers. He is an expert at the International Union for the Conservation of Nature and Natural Resources.</p>
 </div>
 </div>
 <div id="andra-siibak" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb106"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb106-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AndraSiibak.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb116"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb116-1"><a href="contributors-and-editors.html#cb116-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AndraSiibak.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/AndraSiibak.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="andra-siibak" class="unnumbered author-name">Andra Siibak</h4>
-<p>on Tartu Ülikooli ühiskonnateaduste instituudi meediauuringute professor ning meedia ja kommunikatsiooni doktoriõppekava juht. Tema peamised uurimishuvid on seotud laste ja noorte internetikasutuse, internetikasutuse vahendamise, uue meedia auditooriumide ning privaatsuse teemadega. 2015 pälvis Vabariigi Presidendi Kultuurirahastu noore teadlase preemia, 2017. aastast programmi „Silmapaistev noor eestlane“ (TOYP) laureaat.</p>
+<p>is a Professor of Media Studies in the Faculty of Social Sciences, and PhD Programme Director in Media and Communication at the University of Tartu. Her main research interests are related to how children and youths use the internet, the mediation of internet use, new media audiences, and privacy. In 2015, she received the Young Scientist Award from the Cultural Foundation of the President of the Republic of Estonia; she was the 2017 Honoree of the Ten Outstanding Young Persons (TOYP) programme in Estonia.</p>
 </div>
 </div>
 <div id="triin-talk" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb107"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb107-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/TriinTalk.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb117"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb117-1"><a href="contributors-and-editors.html#cb117-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/TriinTalk.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/TriinTalk.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="triin-talk" class="unnumbered author-name">Triin Talk</h4>
-<p>on restauraator ja muinsuskaitsja, kes on töötanud Tallinna Kultuuriväärtuste Ametis miljööalade spetsialistina ning Muinsuskaitseametis ehitismälestiste peainspektorina.</p>
+<p>is a restorer and heritage conservationist who has worked at Tallinn Culture Department as a specialist of built-up areas of cultural and environmental value, and as the chief inspector of immovable monuments at the National Heritage Board.</p>
 </div>
 </div>
 <div id="tauri-tuvikene" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb108"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb108-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/TauriTuvikene.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb118"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb118-1"><a href="contributors-and-editors.html#cb118-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/TauriTuvikene.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/TauriTuvikene.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="tauri-tuvikene" class="unnumbered author-name">Tauri Tuvikene</h4>
-<p>on linnageograaf, kes töötab Tallinna Ülikooli humanitaarteaduste instituudi maastiku ja kultuuri keskuses vanemteadurina. Tema uurimisvaldkond on liikuvuskultuurid ja postsotsialistlikud linnauuringud. Neil teemadel on ta avaldanud teadusartikleid tunnustatud ajakirjades Current Sociology, IJURR jt. Ta on raamatu „Post-Socialist Urban Infrastructures“ (Routledge, 2019) toimetaja. Alates 2019 juhib humanitaarteaduste võrgustiku HERA rahvusvahelist projekti ühistranspordist kui avalikust ruumist.</p>
+<p>is an urban geographer working as a Senior Researcher at the Centre for Landscape and Culture at the Tallinn University School of Humanities. His research interests include mobility cultures and post-socialist urban studies. He has published scientific articles on these topics in distinguished journals such as Current Sociology and IJURR. He was a co-editor of the book Post-Socialist Urban Infrastructures (Routledge, 2019). Since 2019, he has been in charge of an international project on public transport as public space, by the network Humanities in the European Research Area (HERA).</p>
 </div>
 </div>
 <div id="kärt-vaarmari" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb109"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb109-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KartVaarmari.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb119"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb119-1"><a href="contributors-and-editors.html#cb119-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/KartVaarmari.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/KartVaarmari.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="kärt-vaarmari" class="unnumbered author-name">Kärt Vaarmari</h4>
-<p>on Eestimaa Looduse Fondi arendusjuht ja juhatuse liige. Varem tegutsenud keskkonnajuristina, olles muu hulgas üks Keskkonnaõiguse Keskuse asutajatest. Keskkonnaõiguse valdkonnas on tema uurimisteemad olnud keskkonnaalased õigused, avalikkuse kaasamine keskkonnaotsuste tegemisse ning valitsusväliste vabaühenduste roll avaliku keskkonnahuvi esindamisel. Ta on olnud keskkonnaseadustiku üldosa seaduse kommenteeritud väljaande (2015) toimetaja ja kaasautor ning avaldanud artikleid ajakirjades nagu Journal for European Environmental and Planning Law, Juridica jt.</p>
+<p>is Development Manager and Member of the Executive Committee of the Estonian Fund for Nature. She has previously worked as an environmental lawyer, and she was a co-founders of the Estonian Environmental Law Center. In environmental law, she has focused on environmental rights, public participation in environmental decision-making, and the role of NGOs in representing the public interest in environmental issues. She was the editor and co-author of the executive summary of the General Part of the Environmental Code Act (2015) and has published articles in journals such as the Journal for European Environmental and Planning Law and Juridica.</p>
 </div>
 </div>
 <div id="siim-vahtrus" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb110"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb110-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/SiimVahtrus.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb120"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb120-1"><a href="contributors-and-editors.html#cb120-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/SiimVahtrus.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/SiimVahtrus.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="siim-vahtrus" class="unnumbered author-name">Siim Vahtrus</h4>
-<p>töötab Keskkonnaõiguse Keskuses. Ta on koostanud juhendeid keskkonnamõju hindamise, avalikkuse kaasamise ning ruumilise planeerimise teemal. Ta on keskkonnaseadustiku üldosa seaduse kommenteeritud väljaande (2015) ning „Keskkonnamõju strateegilise hindamise käsiraamatu“ (2017) kaasautor. Ta on avaldanud artikleid rahvusvahelistes teadusajakirjades nagu Juridica International, European Energy and Environmental Law Review ja Impact Assessment and Project Appraisal.</p>
+<p>works at the Estonian Environmental Law Center. He has compiled guidelines for environmental impact assessment, public involvement and spatial planning. He was a co-author of the executive summary of the General Part of the Environmental Code Act (2015) and Keskkonnamõju strateegilise hindamise käsiraamat (Handbook of Strategic Environmental Assessment, 2017) He has published articles in international journals such as Juridica International, European Energy, the Environmental Law Review, and Impact Assessment and Project Appraisal.</p>
 </div>
 </div>
 <div id="andreas-ventsel" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb111"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb111-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AndreasVentsel.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb121"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb121-1"><a href="contributors-and-editors.html#cb121-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AndreasVentsel.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/AndreasVentsel.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="andreas-ventsel" class="unnumbered author-name">Andreas Ventsel</h4>
-<p>on Tartu Ülikooli semiootika vanemteadur. Tema peamised uurimisteemad on poliitiline semiootika, visuaalsemiootika, strateegilised narratiivid infosõja kontekstis ja mõjutustegevus veebikeskkonnas. Ta on osalenud rohkem kui tosinas teadusprojektis. Ta on teinud koostööd Kaitseväe Ühendatud Õppeasutustega ning juhib praegu sõjalisele kommunikatiivsele pettetegevusele pühendatud uurimisprojekti.</p>
+<p>is a Senior Researcher of Semiotics at the University of Tartu. His main research topics are political semiotics, visual semiotics, strategic narratives in information warfare, and influence activities in online environments. He has been involved in more than a dozen research projects. He has collaborated with the Estonian Military Academy and is currently in charge of a research project dedicated on military communications deception.</p>
 </div>
 </div>
 <div id="annika-väiko" class="author-container">
 <div class="author-img-container">
-<div class="sourceCode" id="cb112"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb112-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AnnikaVaiko.png&#39;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb122"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb122-1"><a href="contributors-and-editors.html#cb122-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;../figures/6-authors/AnnikaVaiko.png&#39;</span>)</span></code></pre></div>
 <p><img src="../figures/6-authors/AnnikaVaiko.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 <div>
 <h4 id="annika-väiko" class="unnumbered author-name">Annika Väiko</h4>
-<p>on alates 2014. aastast Tartu Ülikooli rände- ja linnauuringute keskuse teadustöö assistent. Tal on magistrikraad inimgeograafia ja regionaalplaneerimise erialal. Tema peamised uurimisteemad on ränne, segregatsioon linnades ja elukohaliikuvus.</p>
+<p>has been a research assistant at the Centre for Migration and Urban Studies at the University of Tartu since 2014. She holds a master’s degree in human geography and regional planning. Her main research topics are migration, urban segregation and residential mobility.</p>
 </div>
 </div>
 
