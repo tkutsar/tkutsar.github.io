@@ -48,12 +48,11 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
 <script src="libs/plotly-binding-4.9.2.1/plotly.js"></script>
 <script src="libs/typedarray-0.1/typedarray.min.js"></script>
-<link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
-<script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
 <link href="libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
 <script src="libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
 <link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
@@ -62,9 +61,9 @@
 <script src="libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
 <script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet-binding-2.0.3/leaflet.js"></script>
-<script src="libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
-<script src="libs/leaflet-providers-plugin-2.0.3/leaflet-providers-plugin.js"></script>
+<script src="libs/leaflet-binding-2.0.2/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.1.17/leaflet-providers.js"></script>
+<script src="libs/leaflet-providers-plugin-2.0.2/leaflet-providers-plugin.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168674881-1"></script>
 <script>
@@ -84,9 +83,9 @@
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
@@ -95,16 +94,14 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -113,9 +110,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  {  }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -176,12 +173,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="1" data-path="eesti-elukeskkondade-mitmekesisus.html"><a href="eesti-elukeskkondade-mitmekesisus.html"><i class="fa fa-check"></i><b>1</b> Eesti elukeskkondade mitmekesisus</a><ul>
 <li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#põhisõnumid"><i class="fa fa-check"></i>Põhisõnumid</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#põhisõnumid-1"><i class="fa fa-check"></i>Põhisõnumid</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#lähtekohad"><i class="fa fa-check"></i>Lähtekohad</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#artiklite-teemad"><i class="fa fa-check"></i>Artiklite teemad</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#eesti-maailmas"><i class="fa fa-check"></i>Eesti maailmas</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#kuidas-edasi"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#viidatud-allikad-1"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="1.1" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><i class="fa fa-check"></i><b>1.1</b> Maakasutuse muutused – linna ja maa tähenduse moondumine</a><ul>
 <li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#rahvastiku-vähenemine-ja-ränne-linnaregioonidesse-mõjutab-maastikke"><i class="fa fa-check"></i>Rahvastiku vähenemine ja ränne linnaregioonidesse mõjutab maastikke</a></li>
@@ -192,16 +189,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#suund-väärtuslike-põllumaade-säilitamisele-pidurdab-maastikumuutusi"><i class="fa fa-check"></i>Suund väärtuslike põllumaade säilitamisele pidurdab maastikumuutusi</a></li>
 <li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#väärtuslikud-maastikud-ja-kaitsealad-toetavad-maastike-üldilme-säilimist"><i class="fa fa-check"></i>Väärtuslikud maastikud ja kaitsealad toetavad maastike üldilme säilimist</a></li>
 <li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#viidatud-allikad-11"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="1.2" data-path="keskuse-ja-ääremaa-lõhe-eestis.html"><a href="keskuse-ja-ääremaa-lõhe-eestis.html"><i class="fa fa-check"></i><b>1.2</b> Keskuse ja ääremaa lõhe Eestis</a><ul>
 <li class="chapter" data-level="" data-path="keskuse-ja-ääremaa-lõhe-eestis.html"><a href="keskuse-ja-ääremaa-lõhe-eestis.html#ääremaastumine-on-iseennast-taastootev-nõiaring"><i class="fa fa-check"></i>Ääremaastumine on iseennast taastootev nõiaring</a></li>
 <li class="chapter" data-level="" data-path="keskuse-ja-ääremaa-lõhe-eestis.html"><a href="keskuse-ja-ääremaa-lõhe-eestis.html#maapiirkondade-ja-väikelinnade-häbimärgistamine-süvendab-ääremaastumist"><i class="fa fa-check"></i>Maapiirkondade ja väikelinnade häbimärgistamine süvendab ääremaastumist</a></li>
 <li class="chapter" data-level="" data-path="keskuse-ja-ääremaa-lõhe-eestis.html"><a href="keskuse-ja-ääremaa-lõhe-eestis.html#konkurentsivõimele-keskenduv-regionaalpoliitika-ei-ole-ääremaastumist-vähendanud"><i class="fa fa-check"></i>Konkurentsivõimele keskenduv regionaalpoliitika ei ole ääremaastumist vähendanud</a></li>
 <li class="chapter" data-level="" data-path="keskuse-ja-ääremaa-lõhe-eestis.html"><a href="keskuse-ja-ääremaa-lõhe-eestis.html#ääremaastaatus-ja--kuvand-piiravad-koha-konkurentsivõime-kasvu"><i class="fa fa-check"></i>Ääremaastaatus ja -kuvand piiravad koha konkurentsivõime kasvu</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="keskuse-ja-ääremaa-lõhe-eestis.html"><a href="keskuse-ja-ääremaa-lõhe-eestis.html#kokkuvõte-12"><i class="fa fa-check"></i>Kokkuvõte</a></li>
 <li><a href="keskuse-ja-ääremaa-lõhe-eestis.html#tänusõnad"><em>Tänusõnad</em></a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="keskuse-ja-ääremaa-lõhe-eestis.html"><a href="keskuse-ja-ääremaa-lõhe-eestis.html#viidatud-allikad-12"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="1.3" data-path="planeerimisvabaduse-võidukäik-eeslinna-eestis.html"><a href="planeerimisvabaduse-võidukäik-eeslinna-eestis.html"><i class="fa fa-check"></i><b>1.3</b> Planeerimisvabaduse võidukäik eeslinna-Eestis</a><ul>
 <li class="chapter" data-level="" data-path="planeerimisvabaduse-võidukäik-eeslinna-eestis.html"><a href="planeerimisvabaduse-võidukäik-eeslinna-eestis.html#kuidas-määratleda-eeslinna"><i class="fa fa-check"></i>Kuidas määratleda eeslinna?</a></li>
@@ -210,8 +207,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="planeerimisvabaduse-võidukäik-eeslinna-eestis.html"><a href="planeerimisvabaduse-võidukäik-eeslinna-eestis.html#eeslinnamuster-sünnib-detailplaneeringute-summas"><i class="fa fa-check"></i>Eeslinnamuster sünnib detailplaneeringute summas</a></li>
 <li class="chapter" data-level="" data-path="planeerimisvabaduse-võidukäik-eeslinna-eestis.html"><a href="planeerimisvabaduse-võidukäik-eeslinna-eestis.html#turujõud-ja-planeerimispoliitika-väljenduvad-kohaloomes"><i class="fa fa-check"></i>Turujõud ja planeerimispoliitika väljenduvad kohaloomes</a></li>
 <li class="chapter" data-level="" data-path="planeerimisvabaduse-võidukäik-eeslinna-eestis.html"><a href="planeerimisvabaduse-võidukäik-eeslinna-eestis.html#kodulähedasi-avalikke-teenuseid-ja-avalikku-ruumi-eeslinnas-napib"><i class="fa fa-check"></i>Kodulähedasi avalikke teenuseid ja avalikku ruumi eeslinnas napib</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="planeerimisvabaduse-võidukäik-eeslinna-eestis.html"><a href="planeerimisvabaduse-võidukäik-eeslinna-eestis.html#kokkuvõte-13"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="planeerimisvabaduse-võidukäik-eeslinna-eestis.html"><a href="planeerimisvabaduse-võidukäik-eeslinna-eestis.html#viidatud-allikad-13"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="1.4" data-path="nüüdisaegsed-elamistingimused-kelle-privileeg.html"><a href="nüüdisaegsed-elamistingimused-kelle-privileeg.html"><i class="fa fa-check"></i><b>1.4</b> Nüüdisaegsed elamistingimused – kelle privileeg?</a><ul>
 <li class="chapter" data-level="" data-path="nüüdisaegsed-elamistingimused-kelle-privileeg.html"><a href="nüüdisaegsed-elamistingimused-kelle-privileeg.html#tüüpiline-eestimaalane-elab-tüüpkorteris-eluasemefond-uueneb-kiiremini-pealinnaregioonis"><i class="fa fa-check"></i>Tüüpiline eestimaalane elab tüüpkorteris, eluasemefond uueneb kiiremini pealinnaregioonis</a></li>
@@ -221,7 +218,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="nüüdisaegsed-elamistingimused-kelle-privileeg.html"><a href="nüüdisaegsed-elamistingimused-kelle-privileeg.html#avaliku-sektori-meetmeid-on-ajaga-lisandunud"><i class="fa fa-check"></i>Avaliku sektori meetmeid on ajaga lisandunud</a></li>
 <li class="chapter" data-level="" data-path="nüüdisaegsed-elamistingimused-kelle-privileeg.html"><a href="nüüdisaegsed-elamistingimused-kelle-privileeg.html#rekonstrueerimistoetused-aitavad-elamistingimusi-parandada-kuid-regiooniti-ebaühtlaselt"><i class="fa fa-check"></i>Rekonstrueerimistoetused aitavad elamistingimusi parandada, kuid regiooniti ebaühtlaselt</a></li>
 <li class="chapter" data-level="" data-path="nüüdisaegsed-elamistingimused-kelle-privileeg.html"><a href="nüüdisaegsed-elamistingimused-kelle-privileeg.html#võtmeküsimus-eluasemevaldkonnas-millised-on-sekkumise-võimalused"><i class="fa fa-check"></i>Võtmeküsimus eluasemevaldkonnas – millised on sekkumise võimalused?</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="nüüdisaegsed-elamistingimused-kelle-privileeg.html"><a href="nüüdisaegsed-elamistingimused-kelle-privileeg.html#viidatud-allikad-14"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="1.5" data-path="ligipääsetavuse-muutused-autostunud-eestis.html"><a href="ligipääsetavuse-muutused-autostunud-eestis.html"><i class="fa fa-check"></i><b>1.5</b> Ligipääsetavuse muutused autostunud Eestis</a><ul>
 <li class="chapter" data-level="" data-path="ligipääsetavuse-muutused-autostunud-eestis.html"><a href="ligipääsetavuse-muutused-autostunud-eestis.html#aastate-kiire-autostumine-on-stabiliseerumas"><i class="fa fa-check"></i>1990. aastate kiire autostumine on stabiliseerumas</a></li>
@@ -230,18 +227,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="ligipääsetavuse-muutused-autostunud-eestis.html"><a href="ligipääsetavuse-muutused-autostunud-eestis.html#elu-eeslinnas-on-linnaelust-autokesksem"><i class="fa fa-check"></i>Elu eeslinnas on linnaelust autokesksem</a></li>
 <li class="chapter" data-level="" data-path="ligipääsetavuse-muutused-autostunud-eestis.html"><a href="ligipääsetavuse-muutused-autostunud-eestis.html#linnakeskuste-liikuvuse-arendamine-lähtub-autodest"><i class="fa fa-check"></i>Linnakeskuste liikuvuse arendamine lähtub autodest</a></li>
 <li class="chapter" data-level="" data-path="ligipääsetavuse-muutused-autostunud-eestis.html"><a href="ligipääsetavuse-muutused-autostunud-eestis.html#tulevikutrendid-erinevate-liikumisviiside-õigetes-mahtudes-võimaldamine-tagab-vähema-autokasutuse"><i class="fa fa-check"></i>Tulevikutrendid: erinevate liikumisviiside õigetes mahtudes võimaldamine tagab vähema autokasutuse</a></li>
-<li><a href="keskuse-ja-ääremaa-lõhe-eestis.html#tänusõnad"><em>Tänusõnad</em></a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li><a href="ligipääsetavuse-muutused-autostunud-eestis.html#tänusõnad-15"><em>Tänusõnad</em></a></li>
+<li class="chapter" data-level="" data-path="ligipääsetavuse-muutused-autostunud-eestis.html"><a href="ligipääsetavuse-muutused-autostunud-eestis.html#viidatud-allikad-15"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="avalik-linnaruum.html"><a href="avalik-linnaruum.html"><i class="fa fa-check"></i><b>2</b> Avalik linnaruum</a><ul>
 <li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#põhisõnumid"><i class="fa fa-check"></i>Põhisõnumid</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#lähtekohad"><i class="fa fa-check"></i>Lähtekohad</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#artiklite-teemad"><i class="fa fa-check"></i>Artiklite teemad</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#eesti-maailmas"><i class="fa fa-check"></i>Eesti maailmas</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#kuidas-edasi"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#põhisõnumid-2"><i class="fa fa-check"></i>Põhisõnumid</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#lähtekohad-2"><i class="fa fa-check"></i>Lähtekohad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#artiklite-teemad-2"><i class="fa fa-check"></i>Artiklite teemad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#eesti-maailmas-2"><i class="fa fa-check"></i>Eesti maailmas</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#kuidas-edasi-2"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#viidatud-allikad-2"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="2.1" data-path="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html"><a href="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html"><i class="fa fa-check"></i><b>2.1</b> Avalik ruum kui elukeskkonda siduv võrgustik</a><ul>
 <li class="chapter" data-level="" data-path="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html"><a href="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html#avalik-ruum-on-võrgustik-mis-seob-inimeste-elu--töö--ja-tegevuskohad"><i class="fa fa-check"></i>Avalik ruum on võrgustik, mis seob inimeste elu-, töö- ja tegevuskohad</a></li>
@@ -249,16 +246,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html"><a href="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html#avaliku-ruumi-mõiste-on-eesti-õigussüsteemis-sisustamata"><i class="fa fa-check"></i>Avaliku ruumi mõiste on Eesti õigussüsteemis sisustamata</a></li>
 <li class="chapter" data-level="" data-path="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html"><a href="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html#avalik-sektor-ei-ole-end-üldjuhul-teadvustanud-avaliku-ruumi-esindaja-ja-tellijana"><i class="fa fa-check"></i>Avalik sektor ei ole end üldjuhul teadvustanud avaliku ruumi esindaja ja tellijana</a></li>
 <li class="chapter" data-level="" data-path="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html"><a href="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html#avalik-ruum-kui-võrgustik-on-tagatud-siis-kui-riik-ja-omavalitsused-tähtsustavad-seda-igas-ruumiotsuses-ja-igas-mõõtkavas"><i class="fa fa-check"></i>Avalik ruum kui võrgustik on tagatud siis, kui riik ja omavalitsused tähtsustavad seda igas ruumiotsuses ja igas mõõtkavas</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html"><a href="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html#kokkuvõte-21"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html"><a href="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html#viidatud-allikad-21"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="ehituspärand-ja-ruumikvaliteet.html"><a href="ehituspärand-ja-ruumikvaliteet.html"><i class="fa fa-check"></i><b>2.2</b> Ehituspärand ja ruumikvaliteet</a><ul>
 <li class="chapter" data-level="" data-path="ehituspärand-ja-ruumikvaliteet.html"><a href="ehituspärand-ja-ruumikvaliteet.html#ehituspärand-aitab-luua-mitmekesist-ruumi"><i class="fa fa-check"></i>Ehituspärand aitab luua mitmekesist ruumi</a></li>
 <li class="chapter" data-level="" data-path="ehituspärand-ja-ruumikvaliteet.html"><a href="ehituspärand-ja-ruumikvaliteet.html#olemasolevate-ehitiste-säilitamine-on-kestliku-ruumilise-arengu-alus"><i class="fa fa-check"></i>Olemasolevate ehitiste säilitamine on kestliku ruumilise arengu alus</a></li>
 <li class="chapter" data-level="" data-path="ehituspärand-ja-ruumikvaliteet.html"><a href="ehituspärand-ja-ruumikvaliteet.html#üksikutel-ruumiotsustel-on-suur-mõju-nii-kultuuripärandile-kui-ka-regionaalarengule"><i class="fa fa-check"></i>Üksikutel ruumiotsustel on suur mõju nii kultuuripärandile kui ka regionaalarengule</a></li>
 <li class="chapter" data-level="" data-path="ehituspärand-ja-ruumikvaliteet.html"><a href="ehituspärand-ja-ruumikvaliteet.html#mälestised-on-ühine-hüve-ja-jagatud-vastutus"><i class="fa fa-check"></i>Mälestised on ühine hüve ja jagatud vastutus</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="ehituspärand-ja-ruumikvaliteet.html"><a href="ehituspärand-ja-ruumikvaliteet.html#kokkuvõte-22"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="ehituspärand-ja-ruumikvaliteet.html"><a href="ehituspärand-ja-ruumikvaliteet.html#viidatud-allikad-22"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="aktivism-avaliku-ruumi-koosloomes.html"><a href="aktivism-avaliku-ruumi-koosloomes.html"><i class="fa fa-check"></i><b>2.3</b> Aktivism avaliku ruumi koosloomes</a><ul>
 <li class="chapter" data-level="" data-path="aktivism-avaliku-ruumi-koosloomes.html"><a href="aktivism-avaliku-ruumi-koosloomes.html#ruumiaktivism-on-ajas-muutuv-ja-eesmärkidest-sõltuv-ruumipoliitiline-tegevus"><i class="fa fa-check"></i>Ruumiaktivism on ajas muutuv ja eesmärkidest sõltuv ruumipoliitiline tegevus</a></li>
@@ -266,8 +263,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="aktivism-avaliku-ruumi-koosloomes.html"><a href="aktivism-avaliku-ruumi-koosloomes.html#ruumiaktivism-kannustab-kodanikuühiskonna-arengut"><i class="fa fa-check"></i>Ruumiaktivism kannustab kodanikuühiskonna arengut</a></li>
 <li class="chapter" data-level="" data-path="aktivism-avaliku-ruumi-koosloomes.html"><a href="aktivism-avaliku-ruumi-koosloomes.html#ruumiloomes-osalevate-liikumiste-ja-üksikisikute-mõju-väljendub-uutes-osaluskultuuri-vormides"><i class="fa fa-check"></i>Ruumiloomes osalevate liikumiste ja üksikisikute mõju väljendub uutes osaluskultuuri vormides</a></li>
 <li class="chapter" data-level="" data-path="aktivism-avaliku-ruumi-koosloomes.html"><a href="aktivism-avaliku-ruumi-koosloomes.html#aktivismi-väljakutsed-ruumiloomes"><i class="fa fa-check"></i>Aktivismi väljakutsed ruumiloomes</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="aktivism-avaliku-ruumi-koosloomes.html"><a href="aktivism-avaliku-ruumi-koosloomes.html#kokkuvõte-23"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="aktivism-avaliku-ruumi-koosloomes.html"><a href="aktivism-avaliku-ruumi-koosloomes.html#viidatud-allikad-23"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="andmepõhine-ruumiloome.html"><a href="andmepõhine-ruumiloome.html"><i class="fa fa-check"></i><b>2.4</b> Andmepõhine ruumiloome</a><ul>
 <li class="chapter" data-level="" data-path="andmepõhine-ruumiloome.html"><a href="andmepõhine-ruumiloome.html#avalikest-ruumiandmetest-on-ühiskonnal-ainult-võita"><i class="fa fa-check"></i>Avalikest ruumiandmetest on ühiskonnal ainult võita</a></li>
@@ -275,20 +272,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="andmepõhine-ruumiloome.html"><a href="andmepõhine-ruumiloome.html#koostatud-ruumianalüüside-ja-tehtud-otsuste-vahelised-seosed-on-harva-tuvastatavad"><i class="fa fa-check"></i>Koostatud ruumianalüüside ja tehtud otsuste vahelised seosed on harva tuvastatavad</a></li>
 <li class="chapter" data-level="" data-path="andmepõhine-ruumiloome.html"><a href="andmepõhine-ruumiloome.html#aeg-andmepõhise-ruumiloome-juurutamiseks-on-küps"><i class="fa fa-check"></i>Aeg andmepõhise ruumiloome juurutamiseks on küps</a></li>
 <li class="chapter" data-level="" data-path="andmepõhine-ruumiloome.html"><a href="andmepõhine-ruumiloome.html#sabassörkijast-on-võimalik-tõusta-eestvedajaks"><i class="fa fa-check"></i>Sabassörkijast on võimalik tõusta eestvedajaks</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="andmepõhine-ruumiloome.html"><a href="andmepõhine-ruumiloome.html#kokkuvõte-24"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="andmepõhine-ruumiloome.html"><a href="andmepõhine-ruumiloome.html#viidatud-allikad-24"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="looduskeskkond-kui-avalik-hüve.html"><a href="looduskeskkond-kui-avalik-hüve.html"><i class="fa fa-check"></i><b>3</b> Looduskeskkond kui avalik hüve</a><ul>
 <li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#põhisõnumid"><i class="fa fa-check"></i>Põhisõnumid</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#põhisõnumid-3"><i class="fa fa-check"></i>Põhisõnumid</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#looduskeskkonna-seisundist-keskkonnaõigluse-ja-keskkonnademokraatiani"><i class="fa fa-check"></i>Looduskeskkonna seisundist keskkonnaõigluse ja keskkonnademokraatiani</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#looduskeskkonna-ühiskondlik-roll-vajab-senisest-terviklikumat-jälgimist"><i class="fa fa-check"></i>Looduskeskkonna ühiskondlik roll vajab senisest terviklikumat jälgimist</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#eesti-looduse-seisundi-koondnäitajad-on-halvenenud"><i class="fa fa-check"></i>Eesti looduse seisundi koondnäitajad on halvenenud</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#looduses-viibimiseks-on-palju-valikuid-kuid-need-ahenevad"><i class="fa fa-check"></i>Looduses viibimiseks on palju valikuid, kuid need ahenevad</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#koduümbruse-loodus-ja-asulate-rohealad-vajavad-senisest-enam-tähelepanu"><i class="fa fa-check"></i>Koduümbruse loodus ja asulate rohealad vajavad senisest enam tähelepanu</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#tulevikuvaade"><i class="fa fa-check"></i>Tulevikuvaade</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#tulevikuvaade-3"><i class="fa fa-check"></i>Tulevikuvaade</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#viidatud-allikad-3"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="3.1" data-path="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html"><a href="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html"><i class="fa fa-check"></i><b>3.1</b> Kuidas inimesed Eesti looduskeskkonda kasutavad?</a><ul>
 <li class="chapter" data-level="" data-path="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html"><a href="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html#eesti-looduskeskkonna-avaliku-kasutamise-alus-on-igaüheõigus"><i class="fa fa-check"></i>Eesti looduskeskkonna avaliku kasutamise alus on igaüheõigus</a></li>
@@ -300,24 +297,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html"><a href="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html#loodusandide-korjamist-toetavad-loodusharidus-liikuvus-ja-maastiku-planeerimine"><i class="fa fa-check"></i>Loodusandide korjamist toetavad loodusharidus, liikuvus ja maastiku planeerimine</a></li>
 <li class="chapter" data-level="" data-path="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html"><a href="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html#jahipidamine-ühendab-loodusharrastuse-ja-ühiskondliku-ootuse"><i class="fa fa-check"></i>Jahipidamine ühendab loodusharrastuse ja ühiskondliku ootuse</a></li>
 <li class="chapter" data-level="" data-path="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html"><a href="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html#harrastuskalastajate-arv-on-eestis-püsiv"><i class="fa fa-check"></i>Harrastuskalastajate arv on Eestis püsiv</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html"><a href="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html#kokkuvõte-31"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html"><a href="kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html#viidatud-allikad-31"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="3.2" data-path="loodusalade-mõju-inimeste-heaolule.html"><a href="loodusalade-mõju-inimeste-heaolule.html"><i class="fa fa-check"></i><b>3.2</b> Loodusalade mõju inimeste heaolule</a><ul>
 <li class="chapter" data-level="" data-path="loodusalade-mõju-inimeste-heaolule.html"><a href="loodusalade-mõju-inimeste-heaolule.html#loodusalade-pindala-seos-eesti-täiskasvanute-tervisehinnangutega"><i class="fa fa-check"></i>Loodusalade pindala seos Eesti täiskasvanute tervisehinnangutega</a></li>
 <li class="chapter" data-level="" data-path="loodusalade-mõju-inimeste-heaolule.html"><a href="loodusalade-mõju-inimeste-heaolule.html#loodusaladest-saadavat-tervisekasu-ei-arvestata-planeerimisel-piisavalt"><i class="fa fa-check"></i>Loodusaladest saadavat tervisekasu ei arvestata planeerimisel piisavalt</a></li>
 <li class="chapter" data-level="" data-path="loodusalade-mõju-inimeste-heaolule.html"><a href="loodusalade-mõju-inimeste-heaolule.html#inimesed-seisavad-silmitsi-loodusalade-nõrgenenud-puhverdusvõimega"><i class="fa fa-check"></i>Inimesed seisavad silmitsi loodusalade nõrgenenud puhverdusvõimega</a></li>
 <li class="chapter" data-level="" data-path="loodusalade-mõju-inimeste-heaolule.html"><a href="loodusalade-mõju-inimeste-heaolule.html#loodusalade-potentsiaal-avaneb-hariduse-kaudu"><i class="fa fa-check"></i>Loodusalade potentsiaal avaneb hariduse kaudu</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="loodusalade-mõju-inimeste-heaolule.html"><a href="loodusalade-mõju-inimeste-heaolule.html#kokkuvõte-32"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="loodusalade-mõju-inimeste-heaolule.html"><a href="loodusalade-mõju-inimeste-heaolule.html#viidatud-allikad-32"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="loodusalade-kujundamine-avalikuks-kasutuseks.html"><a href="loodusalade-kujundamine-avalikuks-kasutuseks.html"><i class="fa fa-check"></i><b>3.3</b> Loodusalade kujundamine avalikuks kasutuseks</a><ul>
 <li class="chapter" data-level="" data-path="loodusalade-kujundamine-avalikuks-kasutuseks.html"><a href="loodusalade-kujundamine-avalikuks-kasutuseks.html#loodusalade-planeerimisel-lähtutakse-lähimuspõhimõttest"><i class="fa fa-check"></i>Loodusalade planeerimisel lähtutakse lähimuspõhimõttest</a></li>
 <li class="chapter" data-level="" data-path="loodusalade-kujundamine-avalikuks-kasutuseks.html"><a href="loodusalade-kujundamine-avalikuks-kasutuseks.html#loodusalade-seisundit-mõjutavad-nii-rahvusvahelised-arengueesmärgid-kui-ka-riiklik-valdkonnapoliitika"><i class="fa fa-check"></i>Loodusalade seisundit mõjutavad nii rahvusvahelised arengueesmärgid kui ka riiklik valdkonnapoliitika</a></li>
 <li class="chapter" data-level="" data-path="loodusalade-kujundamine-avalikuks-kasutuseks.html"><a href="loodusalade-kujundamine-avalikuks-kasutuseks.html#loodusaladel-on-erinevad-juurdepääsuvõimalused-ja-kasutuskitsendused"><i class="fa fa-check"></i>Loodusaladel on erinevad juurdepääsuvõimalused ja kasutuskitsendused</a></li>
 <li class="chapter" data-level="" data-path="loodusalade-kujundamine-avalikuks-kasutuseks.html"><a href="loodusalade-kujundamine-avalikuks-kasutuseks.html#rohevõrgustik-seob-loodusalad-tervikuks-kuid-selle-toimimine-pole-tervikuna-tagatud"><i class="fa fa-check"></i>Rohevõrgustik seob loodusalad tervikuks, kuid selle toimimine pole tervikuna tagatud</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="loodusalade-kujundamine-avalikuks-kasutuseks.html"><a href="loodusalade-kujundamine-avalikuks-kasutuseks.html#kokkuvõte-33"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="loodusalade-kujundamine-avalikuks-kasutuseks.html"><a href="loodusalade-kujundamine-avalikuks-kasutuseks.html#viidatud-allikad-33"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="3.4" data-path="kaasarääkimise-võimalused-loodusalade-kasutamisel.html"><a href="kaasarääkimise-võimalused-loodusalade-kasutamisel.html"><i class="fa fa-check"></i><b>3.4</b> Kaasarääkimise võimalused loodusalade kasutamisel</a><ul>
 <li class="chapter" data-level="" data-path="kaasarääkimise-võimalused-loodusalade-kasutamisel.html"><a href="kaasarääkimise-võimalused-loodusalade-kasutamisel.html#aastate-sündmused-tingisid-nõukogude-eestis-avaliku-keskkonnaarutelu"><i class="fa fa-check"></i>1980. aastate sündmused tingisid Nõukogude Eestis avaliku keskkonnaarutelu</a></li>
@@ -327,25 +324,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="kaasarääkimise-võimalused-loodusalade-kasutamisel.html"><a href="kaasarääkimise-võimalused-loodusalade-kasutamisel.html#sihtrühmad-ootavad-tõhusamate-kaasamismeetodite-kasutuselevõttu"><i class="fa fa-check"></i>Sihtrühmad ootavad tõhusamate kaasamismeetodite kasutuselevõttu</a></li>
 <li class="chapter" data-level="" data-path="kaasarääkimise-võimalused-loodusalade-kasutamisel.html"><a href="kaasarääkimise-võimalused-loodusalade-kasutamisel.html#sisuka-kaasarääkimise-eelduseks-on-keskkonnainfo-olemasolu-ja-kättesaadavus"><i class="fa fa-check"></i>Sisuka kaasarääkimise eelduseks on keskkonnainfo olemasolu ja kättesaadavus</a></li>
 <li class="chapter" data-level="" data-path="kaasarääkimise-võimalused-loodusalade-kasutamisel.html"><a href="kaasarääkimise-võimalused-loodusalade-kasutamisel.html#loodust-jälgiv-elanikkond-edendab-kodanikuühiskonda"><i class="fa fa-check"></i>Loodust jälgiv elanikkond edendab kodanikuühiskonda</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="kaasarääkimise-võimalused-loodusalade-kasutamisel.html"><a href="kaasarääkimise-võimalused-loodusalade-kasutamisel.html#kokkuvõte-34"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="kaasarääkimise-võimalused-loodusalade-kasutamisel.html"><a href="kaasarääkimise-võimalused-loodusalade-kasutamisel.html#viidatud-allikad-34"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="eesti-aruteluruum.html"><a href="eesti-aruteluruum.html"><i class="fa fa-check"></i><b>4</b> Eesti Aruteluruum</a><ul>
 <li class="chapter" data-level="" data-path="sissejuhatus-4.html"><a href="sissejuhatus-4.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#põhisõnumid"><i class="fa fa-check"></i>Põhisõnumid</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#lähtekohad"><i class="fa fa-check"></i>Lähtekohad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-4.html"><a href="sissejuhatus-4.html#põhisõnumid-4"><i class="fa fa-check"></i>Põhisõnumid</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-4.html"><a href="sissejuhatus-4.html#lähtekohad-4"><i class="fa fa-check"></i>Lähtekohad</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-4.html"><a href="sissejuhatus-4.html#artiklite-kokkuvõte"><i class="fa fa-check"></i>Artiklite kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#kuidas-edasi"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-4.html"><a href="sissejuhatus-4.html#kuidas-edasi-4"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-4.html"><a href="sissejuhatus-4.html#viidatud-allikad-4"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="4.1" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><i class="fa fa-check"></i><b>4.1</b> Ühiskondlik-poliitiline diskussioon digitaalses avalikus ruumis</a><ul>
 <li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#sotsiaalmeedia-lubavused-soodustavad-emotsioonipõhist-suhtlust"><i class="fa fa-check"></i>Sotsiaalmeedia lubavused soodustavad emotsioonipõhist suhtlust</a></li>
 <li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#interneti-kasutamine-eestis"><i class="fa fa-check"></i>Interneti kasutamine Eestis</a></li>
 <li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#suletud-tähendusloome-tekitab-polariseerumist"><i class="fa fa-check"></i>Suletud tähendusloome tekitab polariseerumist</a></li>
 <li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#avatud-tähendusloome-kaasab-eri-osapooli"><i class="fa fa-check"></i>Avatud tähendusloome kaasab eri osapooli</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#kokkuvõte-41"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html"><a href="ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html#viidatud-allikad-41"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="eesti-noored-virtuaalses-arvamusruumis.html"><a href="eesti-noored-virtuaalses-arvamusruumis.html"><i class="fa fa-check"></i><b>4.2</b> Eesti noored virtuaalses arvamusruumis</a><ul>
 <li class="chapter" data-level="" data-path="eesti-noored-virtuaalses-arvamusruumis.html"><a href="eesti-noored-virtuaalses-arvamusruumis.html#eesti-lapsed-kasutavad-internetti-iga-päev"><i class="fa fa-check"></i>Eesti lapsed kasutavad internetti iga päev</a></li>
@@ -354,33 +351,33 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="eesti-noored-virtuaalses-arvamusruumis.html"><a href="eesti-noored-virtuaalses-arvamusruumis.html#eesti-noorte-osalustüübid"><i class="fa fa-check"></i>Eesti noorte osalustüübid</a></li>
 <li class="chapter" data-level="" data-path="eesti-noored-virtuaalses-arvamusruumis.html"><a href="eesti-noored-virtuaalses-arvamusruumis.html#noorte-digiosalust-takistavad-tegurid"><i class="fa fa-check"></i>Noorte digiosalust takistavad tegurid</a></li>
 <li class="chapter" data-level="" data-path="eesti-noored-virtuaalses-arvamusruumis.html"><a href="eesti-noored-virtuaalses-arvamusruumis.html#noored-tajuvad-virtuaalse-arvamusruumi-kitsaskohti"><i class="fa fa-check"></i>Noored tajuvad virtuaalse arvamusruumi kitsaskohti</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li><a href="keskuse-ja-ääremaa-lõhe-eestis.html#tänusõnad"><em>Tänusõnad</em></a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="eesti-noored-virtuaalses-arvamusruumis.html"><a href="eesti-noored-virtuaalses-arvamusruumis.html#kokkuvõte-42"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li><a href="eesti-noored-virtuaalses-arvamusruumis.html#tänusõnad-42"><em>Tänusõnad</em></a></li>
+<li class="chapter" data-level="" data-path="eesti-noored-virtuaalses-arvamusruumis.html"><a href="eesti-noored-virtuaalses-arvamusruumis.html#viidatud-allikad-42"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="ajakirjanduse-kujundatav-arvamusruum.html"><a href="ajakirjanduse-kujundatav-arvamusruum.html"><i class="fa fa-check"></i><b>4.3</b> Ajakirjanduse kujundatav arvamusruum</a><ul>
 <li class="chapter" data-level="" data-path="ajakirjanduse-kujundatav-arvamusruum.html"><a href="ajakirjanduse-kujundatav-arvamusruum.html#ajakirjanduse-kontroll-arvamusruumi-üle-traditsioonilistes-meediakanalites"><i class="fa fa-check"></i>Ajakirjanduse kontroll arvamusruumi üle traditsioonilistes meediakanalites</a></li>
 <li class="chapter" data-level="" data-path="ajakirjanduse-kujundatav-arvamusruum.html"><a href="ajakirjanduse-kujundatav-arvamusruum.html#veebiajakirjanduse-kaasav-arhitektuur-ja-toimimine"><i class="fa fa-check"></i>Veebiajakirjanduse kaasav arhitektuur ja toimimine</a></li>
 <li class="chapter" data-level="" data-path="ajakirjanduse-kujundatav-arvamusruum.html"><a href="ajakirjanduse-kujundatav-arvamusruum.html#sotsiaalmeedia-vastuolulised-võimalused"><i class="fa fa-check"></i>Sotsiaalmeedia vastuolulised võimalused</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="ajakirjanduse-kujundatav-arvamusruum.html"><a href="ajakirjanduse-kujundatav-arvamusruum.html#kokkuvõte-43"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="ajakirjanduse-kujundatav-arvamusruum.html"><a href="ajakirjanduse-kujundatav-arvamusruum.html#viidatud-allikad-43"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="4.4" data-path="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html"><a href="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html"><i class="fa fa-check"></i><b>4.4</b> Ekspertide roll ja staatus ühiskondlikes meediaaruteludes</a><ul>
 <li class="chapter" data-level="" data-path="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html"><a href="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html#teadlaste-roll-ühiskondlikes-aruteludes"><i class="fa fa-check"></i>Teadlaste roll ühiskondlikes aruteludes</a></li>
 <li class="chapter" data-level="" data-path="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html"><a href="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html#puidurafineerimistehase-kava-ärgitas-teadlasi-vedama-avalikku-arutelu"><i class="fa fa-check"></i>Puidurafineerimistehase kava ärgitas teadlasi vedama avalikku arutelu</a></li>
 <li class="chapter" data-level="" data-path="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html"><a href="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html#metsandusdebatis-ei-toonud-avalik-arutelu-eksperte-üksteisele-lähemale"><i class="fa fa-check"></i>Metsandusdebatis ei toonud avalik arutelu eksperte üksteisele lähemale</a></li>
-<li class="chapter" data-level="" data-path="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html"><a href="maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html"><a href="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html#kokkuvõte-44"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html"><a href="ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html#viidatud-allikad-44"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="eesti-elukeskkond-aastal-2050.html"><a href="eesti-elukeskkond-aastal-2050.html"><i class="fa fa-check"></i><b>5</b> Eesti elukeskkond aastal 2050</a><ul>
 <li class="chapter" data-level="" data-path="sissejuhatus-5.html"><a href="sissejuhatus-5.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#põhisõnumid"><i class="fa fa-check"></i>Põhisõnumid</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-5.html"><a href="sissejuhatus-5.html#põhisõnumid-5"><i class="fa fa-check"></i>Põhisõnumid</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-5.html"><a href="sissejuhatus-5.html#mis-on-stsenaariumiplaneerimine"><i class="fa fa-check"></i>Mis on stsenaariumiplaneerimine?</a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-5.html"><a href="sissejuhatus-5.html#peamised-suundumused"><i class="fa fa-check"></i>Peamised suundumused</a></li>
 <li><a href="sissejuhatus-5.html#acknowledgements50"><em>Tänusõnad</em></a></li>
 <li class="chapter" data-level="" data-path="sissejuhatus-5.html"><a href="sissejuhatus-5.html#kasutatud-prognoosid-ja-stsenaariumid"><i class="fa fa-check"></i>Kasutatud prognoosid ja stsenaariumid</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-5.html"><a href="sissejuhatus-5.html#viidatud-allikad-5"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="eesti-2050-stsenaariumid.html"><a href="eesti-2050-stsenaariumid.html"><i class="fa fa-check"></i>Eesti 2050 stsenaariumid</a><ul>
 <li class="chapter" data-level="" data-path="eesti-2050-stsenaariumid.html"><a href="eesti-2050-stsenaariumid.html#tulevikustsenaarumide-põhiteljed-on-asustusstruktuur-ja-avalik-ruum"><i class="fa fa-check"></i>Tulevikustsenaarumide põhiteljed on asustusstruktuur ja avalik ruum</a></li>
@@ -589,7 +586,7 @@ Avaliku ruumi määratlemisel ja kvaliteedikriteeriumide kehtestamisel võib ees
 </p>
 </div>
 </div>
-<div id="kokkuvõte" class="section level3 unnumbered chapter2_section">
+<div id="kokkuvõte-21" class="section level3 unnumbered chapter2_section">
 <h3>Kokkuvõte</h3>
 <p>Hästi toimiva ühiskonna ülesanne on hoolitseda, et inimene tunneks end ruumis hästi mitte ainult kodus, tööl ja autos, vaid ka avalikus ruumis. Avalikku ruumi mõjutab peaaegu iga ruumiotsus. Avaliku sektori tuumülesanne on ruumi mõjutavate otsuste ja lahenduste positiivseid mõjusid kaitsta ja võimendada ning negatiivseid mõjusid ennetada või takistada. Avaliku ruumi terviklikkus on üldkehtiv avalik huvi ja seal ei saa juhinduda ühe teema või ruumikasutaja eelistamisest, näiteks sõiduteede või omaniku vabaduste ülimuslikkusest. Avalik ruum vajab kaitsmise kõrval ka visioonidel põhinevat strateegilist arendamist, sealhulgas pidevat ruumilist seostamist iga rajatava hoone, sõidutee ja era-arendusega. Muu hulgas annab avalik ruum võrgustikulise ruumiobjekti tähenduses selgema aluse linnaarhitektide tööle ja tasakaalus planeeringulahendustele.</p>
 <div class="blockquote-left">
@@ -603,7 +600,7 @@ Avalik ruum vajab visioonidel põhinevat strateegilist arendamist, seal hulgas s
 <p>Aastal 2018 valminud <a href="https://www.riigikantselei.ee/sites/default/files/riigikantselei/strateegiaburoo/ruumiloome_lopparuanne_.pdf">ruumiloome ekspertrühma lõpparuande</a> üks ettepanekuid on laiendada elukeskkonna parendamise põhimõtet selgemalt kogu ruumiloomele. Et see toimiks, peavad avalikku ruumi igas oma otsuses väärtustama nii ettevõtjad kui ka kodanikud, nii omavalitsused kui ka riik.</p>
 <p>Turvalisust ja heaolu kasvatab eelkõige aktiivne ruumi kasutus (<a href="avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html#Worpole2007">Worpole ja Knox 2007</a>), seega on tähtis ka ruumi iseorganiseerumine ja vabakasutus. Ise- ja koosloomine suurendab ühtlasi elanike kogukonna- ja omanikutunnet. Ruumiloome formalismist vabanemise eelduseks on mõtteviisi muutus, aga ka õigusruumi toetus. Avalik ruum paraneb, kui võrgustiku terviklikkust ja mitmekesisust tähtsustatakse järjepidevalt nii suurtes otsustes kui ka pisiasjades. Sellega koos püsib ja paraneb kogu ühiskonna ja demokraatia tervis.</p>
 </div>
-<div id="viidatud-allikad" class="section level3 unnumbered subreferences">
+<div id="viidatud-allikad-21" class="section level3 unnumbered subreferences">
 <h3>Viidatud allikad</h3>
 <p id="Gehl2015">
 Gehl, J. 2015. Linnad inimestele. Tallinn: Eesti Kunstiakadeemia, Yoko Oma.

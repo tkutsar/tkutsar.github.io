@@ -48,12 +48,11 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
 <script src="libs/plotly-binding-4.9.2.1/plotly.js"></script>
 <script src="libs/typedarray-0.1/typedarray.min.js"></script>
-<link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
-<script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
 <link href="libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
 <script src="libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
 <link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
@@ -62,9 +61,9 @@
 <script src="libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
 <script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet-binding-2.0.3/leaflet.js"></script>
-<script src="libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
-<script src="libs/leaflet-providers-plugin-2.0.3/leaflet-providers-plugin.js"></script>
+<script src="libs/leaflet-binding-2.0.2/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.1.17/leaflet-providers.js"></script>
+<script src="libs/leaflet-providers-plugin-2.0.2/leaflet-providers-plugin.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168674881-1"></script>
 <script>
@@ -84,9 +83,9 @@
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
@@ -95,16 +94,14 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -113,9 +110,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  {  }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -164,7 +161,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="estonian-human-development-report-20192020.html"><a href="estonian-human-development-report-20192020.html"><i class="fa fa-check"></i>Estonian Human Development Report 2019/2020</a><ul>
 <li class="chapter" data-level="" data-path="foreword.html"><a href="foreword.html"><i class="fa fa-check"></i>Foreword</a></li>
 <li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#põhisõnumid"><i class="fa fa-check"></i>Põhisõnumid</a></li>
 <li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#estonia-has-advanced-to-30th-position-in-the-world-in-terms-of-human-development-but-has-since-stalled"><i class="fa fa-check"></i>Estonia has advanced to 30th position in the world in terms of human development, but has since stalled</a></li>
 <li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#estonias-metropolisation-is-reflected-in-the-continued-growth-of-the-greater-tallinn-urban-area-where-people-economic-activity-and-services-are-concentrating-while-the-rest-of-estonia-is-shrinking-and-degenerating"><i class="fa fa-check"></i>Estonia’s metropolisation is reflected in the continued growth of the Greater Tallinn urban area, where people, economic activity and services are concentrating, while the rest of Estonia is shrinking and degenerating</a></li>
 <li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#the-multilocality-enjoyed-by-people-living-in-estonian-connects-tallinn-with-the-counties-and-the-cities-with-the-villages"><i class="fa fa-check"></i>The multilocality enjoyed by people living in Estonian connects Tallinn with the counties, and the cities with the villages</a></li>
@@ -191,16 +187,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#the-preservation-of-valuable-agricultural-lands-restrains-landscape-changes"><i class="fa fa-check"></i>The preservation of valuable agricultural lands restrains landscape changes</a></li>
 <li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#protecting-valuable-landscapes-and-conservation-areas-helps-preserve-the-overall-appearance-of-landscapes"><i class="fa fa-check"></i>Protecting valuable landscapes and conservation areas helps preserve the overall appearance of landscapes</a></li>
 <li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#references-11"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="1.2" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html"><i class="fa fa-check"></i><b>1.2</b> Increasing regional polarisation in Estonia</a><ul>
 <li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#peripheralisation-is-self-reproducing"><i class="fa fa-check"></i>Peripheralisation is self-reproducing</a></li>
 <li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#the-stigmatisation-of-rural-areas-and-small-towns-exacerbates-peripheralisation"><i class="fa fa-check"></i>The stigmatisation of rural areas and small towns exacerbates peripheralisation</a></li>
 <li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#competitiveness-based-regional-policy-has-not-reduced-peripheralisation"><i class="fa fa-check"></i>Competitiveness-based regional policy has not reduced peripheralisation</a></li>
 <li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#the-peripheral-status-and-image-of-a-place-sets-limits-to-its-competitiveness"><i class="fa fa-check"></i>The peripheral status and image of a place sets limits to its competitiveness</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#summary-12"><i class="fa fa-check"></i>Summary</a></li>
 <li><a href="increasing-regional-polarisation-in-estonia.html#acknowledgements"><em>Acknowledgements</em></a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="increasing-regional-polarisation-in-estonia.html"><a href="increasing-regional-polarisation-in-estonia.html#references-12"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="1.3" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html"><i class="fa fa-check"></i><b>1.3</b> The triumph of planning freedom in suburban Estonia</a><ul>
 <li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#how-to-define-a-suburb"><i class="fa fa-check"></i>How to define a suburb?</a></li>
@@ -209,8 +205,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#the-pattern-of-a-new-suburb-emerges-as-the-sum-of-detailed-spatial-plans"><i class="fa fa-check"></i>The pattern of a new suburb emerges as the sum of detailed spatial plans</a></li>
 <li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#place-making-as-an-expression-of-market-forces-and-planning-policy"><i class="fa fa-check"></i>Place-making as an expression of market forces and planning policy</a></li>
 <li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#easily-accessible-public-services-and-spaces-are-limited-in-the-suburbs"><i class="fa fa-check"></i>Easily accessible public services and spaces are limited in the suburbs</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#summary-13"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="the-triumph-of-planning-freedom-in-suburban-estonia.html"><a href="the-triumph-of-planning-freedom-in-suburban-estonia.html#references-13"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="1.4" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html"><i class="fa fa-check"></i><b>1.4</b> Modern living conditions – whose privilege?</a><ul>
 <li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#a-typical-person-in-estonia-lives-in-a-soviet-era-mass-housing-apartment-the-housing-stock-is-renewed-faster-in-the-capital-region"><i class="fa fa-check"></i>A typical person in Estonia lives in a Soviet-era mass housing apartment; the housing stock is renewed faster in the capital region</a></li>
@@ -220,7 +216,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#new-public-sector-measures-have-been-introduced-over-time"><i class="fa fa-check"></i>New public-sector measures have been introduced over time</a></li>
 <li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#reconstruction-grants-help-to-improve-living-conditions-but-unevenly-across-regions"><i class="fa fa-check"></i>Reconstruction grants help to improve living conditions, but unevenly across regions</a></li>
 <li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#the-key-question-in-the-housing-sector-is-what-are-the-options-for-intervention"><i class="fa fa-check"></i>The key question in the housing sector is – what are the options for intervention?</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="modern-living-conditions-whose-privilege.html"><a href="modern-living-conditions-whose-privilege.html#references-14"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="1.5" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html"><i class="fa fa-check"></i><b>1.5</b> Accessibility changes in motorised Estonia</a><ul>
 <li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#the-rapid-motorisation-of-the-1990s-is-stabilising"><i class="fa fa-check"></i>The rapid motorisation of the 1990s is stabilising</a></li>
@@ -229,17 +225,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#suburbs-are-more-car-centred-than-urban-centres"><i class="fa fa-check"></i>Suburbs are more car-centred than urban centres</a></li>
 <li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#the-development-of-mobility-in-urban-centres-is-based-on-cars"><i class="fa fa-check"></i>The development of mobility in urban centres is based on cars</a></li>
 <li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#future-trends-enabling-various-modes-of-mobility-in-suitable-volumes-will-reduce-the-use-of-cars"><i class="fa fa-check"></i>Future trends: enabling various modes of mobility in suitable volumes will reduce the use of cars</a></li>
-<li><a href="increasing-regional-polarisation-in-estonia.html#acknowledgements"><em>Acknowledgements</em></a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li><a href="accessibility-changes-in-motorised-estonia.html#acknowledgments-15"><em>Acknowledgements</em></a></li>
+<li class="chapter" data-level="" data-path="accessibility-changes-in-motorised-estonia.html"><a href="accessibility-changes-in-motorised-estonia.html#references-15"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="public-urban-space.html"><a href="public-urban-space.html"><i class="fa fa-check"></i><b>2</b> Public urban space</a><ul>
 <li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#points-of-departure"><i class="fa fa-check"></i>Points of departure</a></li>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#articles-in-this-chapter"><i class="fa fa-check"></i>Articles in this chapter</a></li>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#estonia-in-the-international-context"><i class="fa fa-check"></i>Estonia in the international context</a></li>
+<li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html#points-of-departure-2"><i class="fa fa-check"></i>Points of departure</a></li>
+<li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html#articles-in-this-chapter-2"><i class="fa fa-check"></i>Articles in this chapter</a></li>
+<li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html#estonia-in-the-international-context-2"><i class="fa fa-check"></i>Estonia in the international context</a></li>
 <li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#how-do-we-move-forward"><i class="fa fa-check"></i>How do we move forward?</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="introduction-2.html"><a href="introduction-2.html#references-2"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="2.1" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html"><i class="fa fa-check"></i><b>2.1</b> Public space as an interconnecting network within the living environment</a><ul>
 <li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#public-space-is-a-network-connecting-peoples-homes-workplaces-and-other-activity-spaces"><i class="fa fa-check"></i>Public space is a network connecting people’s homes, workplaces and other activity spaces</a></li>
@@ -247,16 +243,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#the-concept-of-public-space-has-not-been-defined-in-estonian-legislation"><i class="fa fa-check"></i>The concept of public space has not been defined in Estonian legislation</a></li>
 <li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#the-public-sector-has-not-established-itself-as-an-advocate-and-commissioning-party-for-public-space"><i class="fa fa-check"></i>The public sector has not established itself as an advocate and commissioning party for public space</a></li>
 <li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#the-public-space-can-only-function-as-a-network-if-the-state-and-local-governments-emphasise-it-in-spatial-decisions-at-every-level"><i class="fa fa-check"></i>The public space can only function as a network if the state and local governments emphasise it in spatial decisions at every level</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#summary-21"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="public-space-as-an-interconnecting-network-within-the-living-environment.html"><a href="public-space-as-an-interconnecting-network-within-the-living-environment.html#references-21"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html"><i class="fa fa-check"></i><b>2.2</b> Built heritage and spatial quality</a><ul>
 <li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#built-heritage-helps-to-create-diverse-space"><i class="fa fa-check"></i>Built heritage helps to create diverse space</a></li>
 <li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#the-conservation-of-existing-buildings-is-the-basis-for-sustainable-spatial-development"><i class="fa fa-check"></i>The conservation of existing buildings is the basis for sustainable spatial development</a></li>
 <li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#individual-spatial-decisions-have-a-major-impact-on-cultural-heritage-and-regional-development"><i class="fa fa-check"></i>Individual spatial decisions have a major impact on cultural heritage and regional development</a></li>
 <li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#monuments-are-a-common-good-and-a-shared-responsibility"><i class="fa fa-check"></i>Monuments are a common good and a shared responsibility</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#summary-22"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="built-heritage-and-spatial-quality.html"><a href="built-heritage-and-spatial-quality.html#references-22"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html"><i class="fa fa-check"></i><b>2.3</b> Urban activism in the co-creation of public space</a><ul>
 <li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#urban-activism-as-a-political-activity-changes-in-time-and-its-form-varies-according-to-the-aims-pursued"><i class="fa fa-check"></i>Urban activism as a political activity changes in time and its form varies according to the aims pursued</a></li>
@@ -264,8 +260,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#urban-activism-spurs-the-development-of-civil-society"><i class="fa fa-check"></i>Urban activism spurs the development of civil society</a></li>
 <li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#the-impact-of-movements-and-individuals-involved-in-spatial-design-is-expressed-in-new-forms-of-participatory-culture"><i class="fa fa-check"></i>The impact of movements and individuals involved in spatial design is expressed in new forms of participatory culture</a></li>
 <li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#challenges-to-activism-in-urban-design"><i class="fa fa-check"></i>Challenges to activism in urban design</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#summary-23"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#references-23"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html"><i class="fa fa-check"></i><b>2.4</b> Data-driven spatial planning</a><ul>
 <li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#open-access-spatial-data-can-only-benefit-society"><i class="fa fa-check"></i>Open-access spatial data can only benefit society</a></li>
@@ -273,8 +269,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#clear-connections-between-spatial-analyses-and-subsequent-decisions-are-rare"><i class="fa fa-check"></i>Clear connections between spatial analyses and subsequent decisions are rare</a></li>
 <li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#high-time-to-introduce-data-driven-spatial-planning"><i class="fa fa-check"></i>High time to introduce data-driven spatial planning</a></li>
 <li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#from-follower-to-leader"><i class="fa fa-check"></i>From follower to leader</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#summary-24"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="data-driven-spatial-planning.html"><a href="data-driven-spatial-planning.html#references-24"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="natural-environment-as-a-public-good.html"><a href="natural-environment-as-a-public-good.html"><i class="fa fa-check"></i><b>3</b> Natural environment as a public good</a><ul>
@@ -285,7 +281,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#the-options-for-spending-time-in-nature-are-narrowing"><i class="fa fa-check"></i>The options for spending time in nature are narrowing</a></li>
 <li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#neighbourhood-natural-areas-and-urban-green-spaces-require-more-attention-from-planners"><i class="fa fa-check"></i>Neighbourhood natural areas and urban green spaces require more attention from planners</a></li>
 <li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#future-perspectives"><i class="fa fa-check"></i>Future perspectives</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="introduction-3.html"><a href="introduction-3.html#references-3"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="3.1" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html"><i class="fa fa-check"></i><b>3.1</b> How do people use the natural environment in Estonia?</a><ul>
 <li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#the-public-use-of-the-estonian-natural-environment-is-based-on-everymans-right"><i class="fa fa-check"></i>The public use of the Estonian natural environment is based on everyman’s right</a></li>
@@ -297,51 +293,51 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#nature-education-mobility-and-landscape-planning-contribute-to-foraging-for-wild-produce"><i class="fa fa-check"></i>Nature education, mobility and landscape planning contribute to foraging for wild produce</a></li>
 <li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#hunting-combines-outdoorsmanship-with-meeting-societal-expectations"><i class="fa fa-check"></i>Hunting combines outdoorsmanship with meeting societal expectations</a></li>
 <li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#the-number-of-recreational-fishermen-in-estonia-is-stable"><i class="fa fa-check"></i>The number of recreational fishermen in Estonia is stable</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#summary-31"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="how-do-people-use-the-natural-environment-in-estonia.html"><a href="how-do-people-use-the-natural-environment-in-estonia.html#references-31"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="3.2" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html"><i class="fa fa-check"></i><b>3.2</b> The impact of natural areas on people’s well-being</a><ul>
 <li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#the-relationship-between-the-size-of-natural-areas-and-the-self-reported-health-of-estonian-adults"><i class="fa fa-check"></i>The relationship between the size of natural areas and the self-reported health of Estonian adults</a></li>
 <li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#the-health-benefits-of-natural-areas-are-not-sufficiently-taken-into-account-during-planning"><i class="fa fa-check"></i>The health benefits of natural areas are not sufficiently taken into account during planning</a></li>
 <li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#the-buffering-capacity-of-natural-areas-is-weakening"><i class="fa fa-check"></i>The buffering capacity of natural areas is weakening</a></li>
 <li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#education-is-key-to-unlocking-the-potential-of-natural-areas"><i class="fa fa-check"></i>Education is key to unlocking the potential of natural areas</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#summary-32"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="the-impact-of-natural-areas-on-peoples-well-being.html"><a href="the-impact-of-natural-areas-on-peoples-well-being.html#references-32"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html"><i class="fa fa-check"></i><b>3.3</b> Shaping natural areas for public use</a><ul>
 <li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#the-planning-of-natural-areas-is-based-on-the-principle-of-subsidiarity"><i class="fa fa-check"></i>The planning of natural areas is based on the principle of subsidiarity</a></li>
 <li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#international-development-objectives-and-national-policies-influence-the-status-of-natural-areas"><i class="fa fa-check"></i>International development objectives and national policies influence the status of natural areas</a></li>
 <li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#natural-areas-have-different-access-options-and-restrictions-on-use"><i class="fa fa-check"></i>Natural areas have different access options and restrictions on use</a></li>
 <li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#the-green-network-connects-natural-areas-but-its-function-as-a-whole-is-not-guaranteed"><i class="fa fa-check"></i>The green network connects natural areas, but its function as a whole is not guaranteed</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#summary-33"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="shaping-natural-areas-for-public-use.html"><a href="shaping-natural-areas-for-public-use.html#references-33"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="3.4" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html"><i class="fa fa-check"></i><b>3.4</b> Public participation in decisions on the use of natural areas</a><ul>
-<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#aastate-sündmused-tingisid-nõukogude-eestis-avaliku-keskkonnaarutelu"><i class="fa fa-check"></i>1980. aastate sündmused tingisid Nõukogude Eestis avaliku keskkonnaarutelu</a></li>
+<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#public-debate-on-the-environment-was-induced-by-events-in-the-1980s-in-soviet-estonia"><i class="fa fa-check"></i>Public debate on the environment was induced by events in the 1980s in Soviet Estonia</a></li>
 <li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#the-current-legal-framework-on-public-participation-and-environmental-information-in-estonia-is-sound"><i class="fa fa-check"></i>The current legal framework on public participation and environmental information in Estonia is sound</a></li>
 <li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#the-public-can-mostly-participate-in-the-management-of-public-space"><i class="fa fa-check"></i>The public can mostly participate in the management of public space</a></li>
 <li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#despite-the-right-to-participate-estonians-are-passive-and-pessimistic"><i class="fa fa-check"></i>Despite the right to participate, Estonians are passive and pessimistic</a></li>
 <li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#stakeholders-expect-more-effective-methods-of-participation"><i class="fa fa-check"></i>Stakeholders expect more effective methods of participation</a></li>
 <li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#access-to-environmental-information-is-a-requirement-for-substantive-public-participation"><i class="fa fa-check"></i>Access to environmental information is a requirement for substantive public participation</a></li>
 <li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#citizens-that-follow-the-natural-environment-promote-civil-society"><i class="fa fa-check"></i>Citizens that follow the natural environment promote civil society</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#summary-34"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="public-participation-in-decisions-on-the-use-of-natural-areas.html"><a href="public-participation-in-decisions-on-the-use-of-natural-areas.html#references-34"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="estonian-deliberative-space.html"><a href="estonian-deliberative-space.html"><i class="fa fa-check"></i><b>4</b> Estonian deliberative space</a><ul>
 <li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#points-of-departure"><i class="fa fa-check"></i>Points of departure</a></li>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#articles-in-this-chapter"><i class="fa fa-check"></i>Articles in this chapter</a></li>
-<li class="chapter" data-level="" data-path="introduction-1.html"><a href="introduction-1.html#how-do-we-move-forward"><i class="fa fa-check"></i>How do we move forward?</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html#points-of-departure-4"><i class="fa fa-check"></i>Points of departure</a></li>
+<li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html#articles-in-this-chapter-4"><i class="fa fa-check"></i>Articles in this chapter</a></li>
+<li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html#how-do-we-move-forward-4"><i class="fa fa-check"></i>How do we move forward?</a></li>
+<li class="chapter" data-level="" data-path="introduction-4.html"><a href="introduction-4.html#references-4"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="4.1" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html"><i class="fa fa-check"></i><b>4.1</b> Socio-political discussion in the digital public space</a><ul>
 <li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#the-affordances-of-social-media-encourage-emotion-based-communication"><i class="fa fa-check"></i>The affordances of social media encourage emotion-based communication</a></li>
 <li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#internet-use-in-estonia"><i class="fa fa-check"></i>Internet use in Estonia</a></li>
 <li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#closed-meaning-creation-evokes-polarisation"><i class="fa fa-check"></i>Closed meaning creation evokes polarisation</a></li>
 <li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#open-meaning-creation-involves-various-parties"><i class="fa fa-check"></i>Open meaning creation involves various parties</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#summary-41"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="socio-political-discussion-in-the-digital-public-space.html"><a href="socio-political-discussion-in-the-digital-public-space.html#references-41"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html"><i class="fa fa-check"></i><b>4.2</b> Estonian youth in the virtual opinion space</a><ul>
 <li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#estonian-children-use-the-internet-daily"><i class="fa fa-check"></i>Estonian children use the internet daily</a></li>
@@ -350,32 +346,32 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#types-of-civic-participation-among-estonian-youth"><i class="fa fa-check"></i>Types of civic participation among Estonian youth</a></li>
 <li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#factors-hindering-the-digital-participation-of-young-people"><i class="fa fa-check"></i>Factors hindering the digital participation of young people</a></li>
 <li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#young-people-perceive-the-weaknesses-of-the-virtual-opinion-space"><i class="fa fa-check"></i>Young people perceive the weaknesses of the virtual opinion space</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li><a href="increasing-regional-polarisation-in-estonia.html#acknowledgements"><em>Acknowledgements</em></a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#summary-42"><i class="fa fa-check"></i>Summary</a></li>
+<li><a href="estonian-youth-in-the-virtual-opinion-space.html#acknowledgements-42"><em>Acknowledgements</em></a></li>
+<li class="chapter" data-level="" data-path="estonian-youth-in-the-virtual-opinion-space.html"><a href="estonian-youth-in-the-virtual-opinion-space.html#references-42"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html"><i class="fa fa-check"></i><b>4.3</b> The deliberative space shaped by the press</a><ul>
 <li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#media-control-of-the-opinion-space-in-traditional-media-channels"><i class="fa fa-check"></i>Media control of the opinion space in traditional media channels</a></li>
 <li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#inclusive-architecture-and-the-functioning-of-online-journalism"><i class="fa fa-check"></i>Inclusive architecture and the functioning of online journalism</a></li>
 <li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#the-contradictory-potential-of-social-media"><i class="fa fa-check"></i>The contradictory potential of social media</a></li>
-<li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#kokkuvõte"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="urban-activism-in-the-co-creation-of-public-space.html"><a href="urban-activism-in-the-co-creation-of-public-space.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#summary-43"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="the-deliberative-space-shaped-by-the-press.html"><a href="the-deliberative-space-shaped-by-the-press.html#references-43"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="4.4" data-path="the-role-and-status-of-experts-in-societal-media-discussions.html"><a href="the-role-and-status-of-experts-in-societal-media-discussions.html"><i class="fa fa-check"></i><b>4.4</b> The role and status of experts in societal media discussions</a><ul>
 <li class="chapter" data-level="" data-path="the-role-and-status-of-experts-in-societal-media-discussions.html"><a href="the-role-and-status-of-experts-in-societal-media-discussions.html#the-role-of-scientists-in-societal-debates"><i class="fa fa-check"></i>The role of scientists in societal debates</a></li>
 <li class="chapter" data-level="" data-path="the-role-and-status-of-experts-in-societal-media-discussions.html"><a href="the-role-and-status-of-experts-in-societal-media-discussions.html#a-plan-for-a-wood-processing-plant-encouraged-academics-to-lead-the-public-debate"><i class="fa fa-check"></i>A plan for a wood processing plant encouraged academics to lead the public debate</a></li>
 <li class="chapter" data-level="" data-path="the-role-and-status-of-experts-in-societal-media-discussions.html"><a href="the-role-and-status-of-experts-in-societal-media-discussions.html#public-debate-on-forestry-did-not-bring-experts-any-closer-together"><i class="fa fa-check"></i>Public debate on forestry did not bring experts any closer together</a></li>
-<li class="chapter" data-level="" data-path="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html"><a href="changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html#summary"><i class="fa fa-check"></i>Summary</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="the-role-and-status-of-experts-in-societal-media-discussions.html"><a href="the-role-and-status-of-experts-in-societal-media-discussions.html#summary-44"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="" data-path="the-role-and-status-of-experts-in-societal-media-discussions.html"><a href="the-role-and-status-of-experts-in-societal-media-discussions.html#references-44"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="estonian-living-environment-in-2050.html"><a href="estonian-living-environment-in-2050.html"><i class="fa fa-check"></i><b>5</b> Estonian living environment in 2050</a><ul>
 <li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html"><i class="fa fa-check"></i>Introduction</a><ul>
 <li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#what-is-scenario-planning"><i class="fa fa-check"></i>What is scenario planning?</a></li>
 <li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#main-trends"><i class="fa fa-check"></i>Main trends</a></li>
-<li><a href="introduction-5.html#acknowledgements50"><em>Acknowledgements</em></a></li>
+<li><a href="introduction-5.html#acknowledgements-5"><em>Acknowledgements</em></a></li>
 <li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#forecasts-and-scenarios-used"><i class="fa fa-check"></i>Forecasts and scenarios used</a></li>
-<li class="chapter" data-level="" data-path="introduction-0.html"><a href="introduction-0.html#references"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="introduction-5.html"><a href="introduction-5.html#references-5"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="estonia-2050-scenarios.html"><a href="estonia-2050-scenarios.html"><i class="fa fa-check"></i>Estonia 2050 scenarios</a></li>
 <li class="chapter" data-level="" data-path="estonia-voluntarily-forced-into-cities.html"><a href="estonia-voluntarily-forced-into-cities.html"><i class="fa fa-check"></i>Estonia voluntarily forced into cities</a></li>
@@ -416,7 +412,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><a class="print-btn" href="../eesti-2050-stsenaariumid.html">EE</a></p>
 </div>
 </div>
-<p>Four scenarios were developed to illustrate the impact of the changes described above. The scenarios are exploratory and illustrate a range of possible futures. Exploratory scenarios differ from other types of scenarios (forecasts and normative scenarios) in that they focus on the combined effects of different variables and do not specify a specific objective that must be achieved in all scenarios (<a href="introduction-5.html#Börjeson2006">Börjeson 2006</a>) The role of exploratory scenarios is to illustrate the possible extremes of each axis, which need not materialise. For example, in the case of public space, it is difficult to imagine a completely individualistic (liberal) or entirely communal use, while there may be a tendency to go more in one direction or the other. kogukondliku kasutust, küll aga võidakse kalduda rohkem ühte või teise suunda.</p>
+<p>Four scenarios were developed to illustrate the impact of the changes described above. The scenarios are exploratory and illustrate a range of possible futures. Exploratory scenarios differ from other types of scenarios (forecasts and normative scenarios) in that they focus on the combined effects of different variables and do not specify a specific objective that must be achieved in all scenarios (<a href="introduction-5.html#Börjeson2006">Börjeson 2006</a>). The role of exploratory scenarios is to illustrate the possible extremes of each axis, which need not materialise. For example, in the case of public space, it is difficult to imagine a completely individualistic (liberal) or entirely communal use, while there may be a tendency to go more in one direction or the other.</p>
 <div class="blockquote-left">
 <p>
 The role of exploratory scenarios is to illustrate the possible extremes of each axis.
