@@ -1693,7 +1693,7 @@ margin-top:50px !important;
 /* Chapter 8 - KODUKOHA KOMPASS  #E42847 */
 
 .chapter8_section.intro_section::before{
-	      background-image: url(figures/8-chapter/chapter8_cover.jpg);
+	      background-image: url(figures/8-chapter/chapter8_cover.png);
 	      background-attachment:fixed;
 }
 
